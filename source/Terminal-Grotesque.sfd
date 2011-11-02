@@ -3,7 +3,7 @@ FontName: Terminal-Grotesque
 FullName: Terminal Grotesque Regular
 FamilyName: Terminal Grotesque
 Weight: Book
-Copyright: Copyright Raphaël Bastide 2011
+Copyright: Copyright RaphaÃ«l Bastide 2011
 Version: 1.0
 ItalicAngle: 0
 UnderlinePosition: 127
@@ -13,13 +13,14 @@ Descent: 205
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 366 1577494475 15539195]
 FSType: 4
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1315634130
-ModificationTime: 1320254623
+ModificationTime: 1320276932
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +53,7 @@ OS2StrikeYPos: 204
 OS2Vendor: 'FSTR'
 OS2CodePages: 000001fb.00000000
 OS2UnicodeRanges: a0000007.4000000a.00000000.00000000
-Lookup: 258 0 0 "Pairwise Positioning (kerning) in Latin lookup 0"  {"Pairwise Positioning (kerning) in Latin lookup 0-1"  "Pairwise Positioning (kerning) in Latin lookup 0-2"  } ['test' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "Pairwise Positioning (kerning) in Latin lookup 0"  {"Pairwise Positioning (kerning) in Latin lookup 0-1"  "Pairwise Positioning (kerning) in Latin lookup 0-2"  "AT"  } ['test' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 DEI: 91125
 ShortTable: maxp 16
   1
@@ -79,7 +80,156 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 80 16 4
+WinInfo: 144 16 4
+Grid
+736 1331 m 0
+ 736 -717 l 0
+  Named: "23" 
+704 1331 m 0
+ 704 -717 l 0
+  Named: "22" 
+672 1331 m 0
+ 672 -717 l 0
+  Named: "21" 
+640 1331 m 0
+ 640 -717 l 0
+  Named: "20" 
+608 1331 m 0
+ 608 -717 l 0
+  Named: "19" 
+576 1331 m 0
+ 576 -717 l 0
+  Named: "18" 
+544 1331 m 0
+ 544 -717 l 0
+  Named: "17" 
+512 1331 m 0
+ 512 -717 l 0
+  Named: "16" 
+480 1331 m 0
+ 480 -717 l 0
+  Named: "15" 
+448 1331 m 0
+ 448 -717 l 0
+  Named: "14" 
+416 1331 m 0
+ 416 -717 l 0
+  Named: "13" 
+384 1331 m 0
+ 384 -717 l 0
+  Named: "12" 
+352 1331 m 0
+ 352 -717 l 0
+  Named: "11" 
+320 1331 m 0
+ 320 -717 l 0
+  Named: "10" 
+288 1331 m 0
+ 288 -717 l 0
+  Named: "9" 
+224 1331 m 0
+ 224 -717 l 0
+  Named: "7" 
+192 1331 m 0
+ 192 -717 l 0
+  Named: "6" 
+160 1331 m 0
+ 160 -717 l 0
+  Named: "5" 
+256 1331 m 0
+ 256 -717 l 0
+  Named: "8" 
+128 1331 m 0
+ 128 -717 l 0
+  Named: "4" 
+96 1331 m 0
+ 96 -717 l 0
+  Named: "3" 
+64 1331 m 0
+ 64 -717 l 0
+  Named: "2" 
+32 1331 m 0
+ 32 -717 l 0
+  Named: "1" 
+-1024 -192 m 0
+ 2048 -192 l 0
+  Named: "-6" 
+-1024 -160 m 0
+ 2048 -160 l 0
+  Named: "-5" 
+-1024 -128 m 0
+ 2048 -128 l 0
+  Named: "-4" 
+-1024 -96 m 0
+ 2048 -96 l 0
+  Named: "-3" 
+-1024 -64 m 0
+ 2048 -64 l 0
+  Named: "-2" 
+-1024 -32 m 0
+ 2048 -32 l 0
+  Named: "-1" 
+-1024 448 m 0
+ 2048 448 l 0
+  Named: "14" 
+-1024 320 m 0
+ 2048 320 l 0
+  Named: "10" 
+-1024 640 m 0
+ 2048 640 l 0
+  Named: "20" 
+-1024 608 m 0
+ 2048 608 l 0
+  Named: "19" 
+-1024 576 m 0
+ 2048 576 l 0
+  Named: "18" 
+-1024 544 m 0
+ 2048 544 l 0
+  Named: "17" 
+-1024 512 m 0
+ 2048 512 l 0
+  Named: "16" 
+-1024 480 m 0
+ 2048 480 l 0
+  Named: "15" 
+-1024 416 m 0
+ 2048 416 l 0
+  Named: "13" 
+-1024 384 m 0
+ 2048 384 l 0
+  Named: "12" 
+-1024 352 m 0
+ 2048 352 l 0
+  Named: "11" 
+-1024 288 m 0
+ 2048 288 l 0
+  Named: "9" 
+-1024 256 m 0
+ 2048 256 l 0
+  Named: "8" 
+-1024 224 m 0
+ 2048 224 l 0
+  Named: "7" 
+-1024 192 m 0
+ 2048 192 l 0
+  Named: "6" 
+-1024 160 m 0
+ 2048 160 l 0
+  Named: "5" 
+-1024 128 m 0
+ 2048 128 l 0
+  Named: "4" 
+-1024 96 m 0
+ 2048 96 l 0
+  Named: "3" 
+-1024 64 m 0
+ 2048 64 l 0
+  Named: "2" 
+-1024 32 m 0
+ 2048 32 l 0
+  Named: "1" 
+EndSplineSet
 TeXData: 1 0 0 188416 94208 62805 491520 1048576 62805 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65539 213
 
@@ -1783,7 +1933,7 @@ EndChar
 StartChar: at
 Encoding: 64 64 35
 Width: 576
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -1889,7 +2039,7 @@ EndChar
 StartChar: A
 Encoding: 65 65 36
 Width: 672
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -1960,7 +2110,7 @@ SplineSet
  96 0 l 1,63,-1
  0 0 l 1,16,-1
 EndSplineSet
-Kerns2: 92 -60 "Pairwise Positioning (kerning) in Latin lookup 0-2"  90 -60 "Pairwise Positioning (kerning) in Latin lookup 0-2"  89 -60 "Pairwise Positioning (kerning) in Latin lookup 0-2" 
+Kerns2: 55 -123 "AT"  55 -123 "Pairwise Positioning (kerning) in Latin lookup 0-1"  57 -137 "Pairwise Positioning (kerning) in Latin lookup 0-1"  92 -60 "Pairwise Positioning (kerning) in Latin lookup 0-2"  90 -60 "Pairwise Positioning (kerning) in Latin lookup 0-2"  89 -60 "Pairwise Positioning (kerning) in Latin lookup 0-2" 
 EndChar
 
 StartChar: B
@@ -2976,7 +3126,7 @@ SplineSet
  320 0 l 1,7,-1
  224 0 l 1,0,-1
 EndSplineSet
-Kerns2: 16 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  30 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  29 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  15 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  17 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  93 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  92 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  91 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  90 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  89 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  88 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  86 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  85 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  84 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  83 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  82 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  81 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  80 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  74 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  72 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  71 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  70 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  68 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2" 
+Kerns2: 16 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  30 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  29 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  15 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  17 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  93 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  92 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  91 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  90 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  89 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  88 -129 "Pairwise Positioning (kerning) in Latin lookup 0-2"  86 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  85 -81 "Pairwise Positioning (kerning) in Latin lookup 0-2"  84 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  83 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  82 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  81 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  80 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  74 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  72 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  71 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  70 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2"  68 -156 "Pairwise Positioning (kerning) in Latin lookup 0-2" 
 EndChar
 
 StartChar: U
@@ -3089,7 +3239,7 @@ EndChar
 StartChar: W
 Encoding: 87 87 58
 Width: 800
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -3173,7 +3323,7 @@ EndChar
 StartChar: X
 Encoding: 88 88 59
 Width: 640
-Flags: W
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
@@ -5127,7 +5277,7 @@ EndChar
 StartChar: sterling
 Encoding: 163 163 100
 Width: 608
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
