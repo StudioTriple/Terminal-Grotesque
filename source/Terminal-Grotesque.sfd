@@ -13,13 +13,14 @@ Descent: 205
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 366 1577494475 15539195]
 FSType: 4
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1315634130
-ModificationTime: 1322063600
+ModificationTime: 1331425476
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -52,8 +53,14 @@ OS2StrikeYPos: 204
 OS2Vendor: 'FSTR'
 OS2CodePages: 000001fb.00000000
 OS2UnicodeRanges: a0000007.4000000a.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"kern"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"kern"  "'kern' Horizontal Kerning in Latin lookup 0-1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 DEI: 91125
+KernClass2: 3 3 "'kern' Horizontal Kerning in Latin lookup 0-1" 
+ 51 U h i j l m n u ugrave uacute ucircumflex udieresis
+ 84 e o s egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis
+ 51 U h i j l m n u ugrave uacute ucircumflex udieresis
+ 84 e o s egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis
+ 110 {} 110 {} 110 {} 110 {} 110 {} 110 {} 110 {} 110 {} 110 {}
 ShortTable: maxp 16
   1
   0
@@ -79,7 +86,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 50 25 12
+WinInfo: 0 25 12
 Grid
 736 1331 m 0
  736 -717 l 0
@@ -234,8 +241,8 @@ BeginChars: 65539 213
 
 StartChar: .notdef
 Encoding: 65536 -1 0
-Width: 448
-Flags: W
+Width: 640
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -271,29 +278,32 @@ EndChar
 
 StartChar: glyph1
 Encoding: 65537 -1 1
-Width: 64
-Flags: W
+Width: 0
+Flags: HW
 LayerCount: 2
+Kerns2: 212 -10063 "kern"  211 -10063 "kern"  210 -10063 "kern"  209 -9999 "kern"  208 -10063 "kern"  207 -10063 "kern"  206 -10063 "kern"  205 -10063 "kern"  204 -10063 "kern"  203 -10063 "kern"  202 -10063 "kern"  201 -10063 "kern"  200 -10063 "kern"  199 -10063 "kern"  198 -10063 "kern"  197 -10063 "kern"  196 -10063 "kern"  195 -10063 "kern"  194 -10063 "kern"  193 -10063 "kern"  192 -10063 "kern"  191 -10063 "kern"  190 -10063 "kern"  189 -10063 "kern"  188 -10063 "kern"  187 -10063 "kern"  186 -10063 "kern"  185 -10063 "kern"  184 -10031 "kern"  183 -10063 "kern"  182 -10063 "kern"  181 -10063 "kern"  180 -10063 "kern"  179 -10063 "kern"  178 -10063 "kern"  177 -10063 "kern"  176 -10063 "kern"  175 -9967 "kern"  174 -9967 "kern"  173 -10063 "kern"  172 -9999 "kern"  171 -10063 "kern"  170 -10063 "kern"  169 -10063 "kern"  168 -10063 "kern"  167 -10063 "kern"  166 -10063 "kern"  165 -10063 "kern"  164 -10063 "kern"  163 -10063 "kern"  162 -10063 "kern"  161 -10063 "kern"  160 -10063 "kern"  159 -10063 "kern"  158 -10063 "kern"  157 -10063 "kern"  156 -10063 "kern"  155 -10063 "kern"  154 -10063 "kern"  153 -10063 "kern"  152 -10063 "kern"  151 -10063 "kern"  150 -10063 "kern"  149 -10063 "kern"  148 -10063 "kern"  147 -10063 "kern"  146 -10063 "kern"  145 -10063 "kern"  144 -9999 "kern"  143 -9967 "kern"  142 -9935 "kern"  141 -10063 "kern"  140 -9999 "kern"  139 -10063 "kern"  138 -10063 "kern"  137 -10063 "kern"  136 -10063 "kern"  135 -10063 "kern"  134 -10063 "kern"  133 -10063 "kern"  132 -10063 "kern"  131 -10063 "kern"  130 -10063 "kern"  129 -10063 "kern"  128 -10063 "kern"  127 -10063 "kern"  126 -10063 "kern"  125 -10063 "kern"  124 -10063 "kern"  123 -10063 "kern"  122 -10063 "kern"  121 -10063 "kern"  120 -10063 "kern"  119 -10063 "kern"  118 -10063 "kern"  117 -10063 "kern"  116 -10191 "kern"  115 -10063 "kern"  114 -10063 "kern"  113 -10063 "kern"  112 -10063 "kern"  111 -10063 "kern"  110 -10063 "kern"  109 -10063 "kern"  108 -10063 "kern"  107 -10063 "kern"  106 -10063 "kern"  105 -10063 "kern"  104 -10063 "kern"  103 -10063 "kern"  102 -10063 "kern"  101 -10063 "kern"  100 -10063 "kern"  99 -9999 "kern"  98 -10063 "kern"  97 -10063 "kern"  96 -10063 "kern"  95 -10063 "kern"  94 -10063 "kern"  93 -10063 "kern"  92 -10063 "kern"  91 -10063 "kern"  90 -10063 "kern"  89 -10063 "kern"  88 -10063 "kern"  87 -10063 "kern"  86 -10063 "kern"  85 -10063 "kern"  84 -10063 "kern"  83 -10063 "kern"  82 -10063 "kern"  81 -10063 "kern"  80 -10063 "kern"  79 -10063 "kern"  78 -10063 "kern"  77 -10063 "kern"  76 -10063 "kern"  75 -10063 "kern"  74 -10063 "kern"  73 -10063 "kern"  72 -10063 "kern"  71 -10063 "kern"  70 -10063 "kern"  69 -10063 "kern"  68 -10063 "kern"  67 -10063 "kern"  66 -10063 "kern"  65 -10063 "kern"  64 -10063 "kern"  63 -10063 "kern"  62 -10063 "kern"  61 -10063 "kern"  60 -10063 "kern"  59 -10063 "kern"  58 -10063 "kern"  57 -10063 "kern"  56 -10063 "kern"  55 -10063 "kern"  54 -10063 "kern"  53 -10063 "kern"  52 -10063 "kern"  51 -10063 "kern"  50 -10063 "kern"  49 -10063 "kern"  48 -10063 "kern"  47 -10063 "kern"  46 -10063 "kern"  45 -10063 "kern"  44 -10063 "kern"  43 -10063 "kern"  42 -10063 "kern"  41 -10063 "kern"  40 -10063 "kern"  39 -10063 "kern"  38 -10063 "kern"  37 -10063 "kern"  36 -10063 "kern"  35 -10063 "kern"  34 -10063 "kern"  33 -10063 "kern"  32 -10063 "kern"  31 -10063 "kern"  30 -10063 "kern"  29 -10063 "kern"  28 -10063 "kern"  27 -10063 "kern"  26 -10063 "kern"  25 -10063 "kern"  24 -10063 "kern"  23 -10063 "kern"  22 -10063 "kern"  21 -10095 "kern"  20 -10063 "kern"  19 -10063 "kern"  18 -10063 "kern"  17 -10063 "kern"  16 -10063 "kern"  15 -10063 "kern"  14 -10063 "kern"  13 -10063 "kern"  12 -10063 "kern"  11 -10063 "kern"  10 -10063 "kern"  9 -10063 "kern"  8 -10063 "kern"  7 -10063 "kern"  6 -9999 "kern"  5 -10063 "kern"  4 -10063 "kern"  0 -10063 "kern" 
 EndChar
 
 StartChar: glyph2
 Encoding: 65538 -1 2
-Width: 192
-Flags: W
+Width: 0
+Flags: HW
 LayerCount: 2
+Kerns2: 212 -10191 "kern"  211 -10191 "kern"  210 -10191 "kern"  209 -10127 "kern"  208 -10191 "kern"  207 -10191 "kern"  206 -10191 "kern"  205 -10191 "kern"  204 -10191 "kern"  203 -10191 "kern"  202 -10191 "kern"  201 -10191 "kern"  200 -10191 "kern"  199 -10191 "kern"  198 -10191 "kern"  197 -10191 "kern"  196 -10191 "kern"  195 -10191 "kern"  194 -10191 "kern"  193 -10191 "kern"  192 -10191 "kern"  191 -10191 "kern"  190 -10191 "kern"  189 -10191 "kern"  188 -10191 "kern"  187 -10191 "kern"  186 -10191 "kern"  185 -10191 "kern"  184 -10159 "kern"  183 -10191 "kern"  182 -10191 "kern"  181 -10191 "kern"  180 -10191 "kern"  179 -10191 "kern"  178 -10191 "kern"  177 -10191 "kern"  176 -10191 "kern"  175 -10095 "kern"  174 -10095 "kern"  173 -10191 "kern"  172 -10127 "kern"  171 -10191 "kern"  170 -10191 "kern"  169 -10191 "kern"  168 -10191 "kern"  167 -10191 "kern"  166 -10191 "kern"  165 -10191 "kern"  164 -10191 "kern"  163 -10191 "kern"  162 -10191 "kern"  161 -10191 "kern"  160 -10191 "kern"  159 -10191 "kern"  158 -10191 "kern"  157 -10191 "kern"  156 -10191 "kern"  155 -10191 "kern"  154 -10191 "kern"  153 -10191 "kern"  152 -10191 "kern"  151 -10191 "kern"  150 -10191 "kern"  149 -10191 "kern"  148 -10191 "kern"  147 -10191 "kern"  146 -10191 "kern"  145 -10191 "kern"  144 -10127 "kern"  143 -10095 "kern"  142 -10063 "kern"  141 -10191 "kern"  140 -10127 "kern"  139 -10191 "kern"  138 -10191 "kern"  137 -10191 "kern"  136 -10191 "kern"  135 -10191 "kern"  134 -10191 "kern"  133 -10191 "kern"  132 -10191 "kern"  131 -10191 "kern"  130 -10191 "kern"  129 -10191 "kern"  128 -10191 "kern"  127 -10191 "kern"  126 -10191 "kern"  125 -10191 "kern"  124 -10191 "kern"  123 -10191 "kern"  122 -10191 "kern"  121 -10191 "kern"  120 -10191 "kern"  119 -10191 "kern"  118 -10191 "kern"  117 -10191 "kern"  116 -10319 "kern"  115 -10191 "kern"  114 -10191 "kern"  113 -10191 "kern"  112 -10191 "kern"  111 -10191 "kern"  110 -10191 "kern"  109 -10191 "kern"  108 -10191 "kern"  107 -10191 "kern"  106 -10191 "kern"  105 -10191 "kern"  104 -10191 "kern"  103 -10191 "kern"  102 -10191 "kern"  101 -10191 "kern"  100 -10191 "kern"  99 -10127 "kern"  98 -10191 "kern"  97 -10191 "kern"  96 -10191 "kern"  95 -10191 "kern"  94 -10191 "kern"  93 -10191 "kern"  92 -10191 "kern"  91 -10191 "kern"  90 -10191 "kern"  89 -10191 "kern"  88 -10191 "kern"  87 -10191 "kern"  86 -10191 "kern"  85 -10191 "kern"  84 -10191 "kern"  83 -10191 "kern"  82 -10191 "kern"  81 -10191 "kern"  80 -10191 "kern"  79 -10191 "kern"  78 -10191 "kern"  77 -10191 "kern"  76 -10191 "kern"  75 -10191 "kern"  74 -10191 "kern"  73 -10191 "kern"  72 -10191 "kern"  71 -10191 "kern"  70 -10191 "kern"  69 -10191 "kern"  68 -10191 "kern"  67 -10191 "kern"  66 -10191 "kern"  65 -10191 "kern"  64 -10191 "kern"  63 -10191 "kern"  62 -10191 "kern"  61 -10191 "kern"  60 -10191 "kern"  59 -10191 "kern"  58 -10191 "kern"  57 -10191 "kern"  56 -10191 "kern"  55 -10191 "kern"  54 -10191 "kern"  53 -10191 "kern"  52 -10191 "kern"  51 -10191 "kern"  50 -10191 "kern"  49 -10191 "kern"  48 -10191 "kern"  47 -10191 "kern"  46 -10191 "kern"  45 -10191 "kern"  44 -10191 "kern"  43 -10191 "kern"  42 -10191 "kern"  41 -10191 "kern"  40 -10191 "kern"  39 -10191 "kern"  38 -10191 "kern"  37 -10191 "kern"  36 -10191 "kern"  35 -10191 "kern"  34 -10191 "kern"  33 -10191 "kern"  32 -10191 "kern"  31 -10191 "kern"  30 -10191 "kern"  29 -10191 "kern"  28 -10191 "kern"  27 -10191 "kern"  26 -10191 "kern"  25 -10191 "kern"  24 -10191 "kern"  23 -10191 "kern"  22 -10191 "kern"  21 -10223 "kern"  20 -10191 "kern"  19 -10191 "kern"  18 -10191 "kern"  17 -10191 "kern"  16 -10191 "kern"  15 -10191 "kern"  14 -10191 "kern"  13 -10191 "kern"  12 -10191 "kern"  11 -10191 "kern"  10 -10191 "kern"  9 -10191 "kern"  8 -10191 "kern"  7 -10191 "kern"  6 -10127 "kern"  5 -10191 "kern"  4 -10191 "kern"  0 -10191 "kern" 
 EndChar
 
 StartChar: space
 Encoding: 32 32 3
-Width: 184
-Flags: W
+Width: 0
+Flags: HW
 LayerCount: 2
+Kerns2: 212 -10183 "kern"  211 -10183 "kern"  210 -10183 "kern"  209 -10119 "kern"  208 -10183 "kern"  207 -10183 "kern"  206 -10183 "kern"  205 -10183 "kern"  204 -10183 "kern"  203 -10183 "kern"  202 -10183 "kern"  201 -10183 "kern"  200 -10183 "kern"  199 -10183 "kern"  198 -10183 "kern"  197 -10183 "kern"  196 -10183 "kern"  195 -10183 "kern"  194 -10183 "kern"  193 -10183 "kern"  192 -10183 "kern"  191 -10183 "kern"  190 -10183 "kern"  189 -10183 "kern"  188 -10183 "kern"  187 -10183 "kern"  186 -10183 "kern"  185 -10183 "kern"  184 -10151 "kern"  183 -10183 "kern"  182 -10183 "kern"  181 -10183 "kern"  180 -10183 "kern"  179 -10183 "kern"  178 -10183 "kern"  177 -10183 "kern"  176 -10183 "kern"  175 -10087 "kern"  174 -10087 "kern"  173 -10183 "kern"  172 -10119 "kern"  171 -10183 "kern"  170 -10183 "kern"  169 -10183 "kern"  168 -10183 "kern"  167 -10183 "kern"  166 -10183 "kern"  165 -10183 "kern"  164 -10183 "kern"  163 -10183 "kern"  162 -10183 "kern"  161 -10183 "kern"  160 -10183 "kern"  159 -10183 "kern"  158 -10183 "kern"  157 -10183 "kern"  156 -10183 "kern"  155 -10183 "kern"  154 -10183 "kern"  153 -10183 "kern"  152 -10183 "kern"  151 -10183 "kern"  150 -10183 "kern"  149 -10183 "kern"  148 -10183 "kern"  147 -10183 "kern"  146 -10183 "kern"  145 -10183 "kern"  144 -10119 "kern"  143 -10087 "kern"  142 -10055 "kern"  141 -10183 "kern"  140 -10119 "kern"  139 -10183 "kern"  138 -10183 "kern"  137 -10183 "kern"  136 -10183 "kern"  135 -10183 "kern"  134 -10183 "kern"  133 -10183 "kern"  132 -10183 "kern"  131 -10183 "kern"  130 -10183 "kern"  129 -10183 "kern"  128 -10183 "kern"  127 -10183 "kern"  126 -10183 "kern"  125 -10183 "kern"  124 -10183 "kern"  123 -10183 "kern"  122 -10183 "kern"  121 -10183 "kern"  120 -10183 "kern"  119 -10183 "kern"  118 -10183 "kern"  117 -10183 "kern"  116 -10311 "kern"  115 -10183 "kern"  114 -10183 "kern"  113 -10183 "kern"  112 -10183 "kern"  111 -10183 "kern"  110 -10183 "kern"  109 -10183 "kern"  108 -10183 "kern"  107 -10183 "kern"  106 -10183 "kern"  105 -10183 "kern"  104 -10183 "kern"  103 -10183 "kern"  102 -10183 "kern"  101 -10183 "kern"  100 -10183 "kern"  99 -10119 "kern"  98 -10183 "kern"  97 -10183 "kern"  96 -10183 "kern"  95 -10183 "kern"  94 -10183 "kern"  93 -10183 "kern"  92 -10183 "kern"  91 -10183 "kern"  90 -10183 "kern"  89 -10183 "kern"  88 -10183 "kern"  87 -10183 "kern"  86 -10183 "kern"  85 -10183 "kern"  84 -10183 "kern"  83 -10183 "kern"  82 -10183 "kern"  81 -10183 "kern"  80 -10183 "kern"  79 -10183 "kern"  78 -10183 "kern"  77 -10183 "kern"  76 -10183 "kern"  75 -10183 "kern"  74 -10183 "kern"  73 -10183 "kern"  72 -10183 "kern"  71 -10183 "kern"  70 -10183 "kern"  69 -10183 "kern"  68 -10183 "kern"  67 -10183 "kern"  66 -10183 "kern"  65 -10183 "kern"  64 -10183 "kern"  63 -10183 "kern"  62 -10183 "kern"  61 -10183 "kern"  60 -10183 "kern"  59 -10183 "kern"  58 -10183 "kern"  57 -10183 "kern"  56 -10183 "kern"  55 -10183 "kern"  54 -10183 "kern"  53 -10183 "kern"  52 -10183 "kern"  51 -10183 "kern"  50 -10183 "kern"  49 -10183 "kern"  48 -10183 "kern"  47 -10183 "kern"  46 -10183 "kern"  45 -10183 "kern"  44 -10183 "kern"  43 -10183 "kern"  42 -10183 "kern"  41 -10183 "kern"  40 -10183 "kern"  39 -10183 "kern"  38 -10183 "kern"  37 -10183 "kern"  36 -10183 "kern"  35 -10183 "kern"  34 -10183 "kern"  33 -10183 "kern"  32 -10183 "kern"  31 -10183 "kern"  30 -10183 "kern"  29 -10183 "kern"  28 -10183 "kern"  27 -10183 "kern"  26 -10183 "kern"  25 -10183 "kern"  24 -10183 "kern"  23 -10183 "kern"  22 -10183 "kern"  21 -10215 "kern"  20 -10183 "kern"  19 -10183 "kern"  18 -10183 "kern"  17 -10183 "kern"  16 -10183 "kern"  15 -10183 "kern"  14 -10183 "kern"  13 -10183 "kern"  12 -10183 "kern"  11 -10183 "kern"  10 -10183 "kern"  9 -10183 "kern"  8 -10183 "kern"  7 -10183 "kern"  6 -10119 "kern"  5 -10183 "kern"  4 -10183 "kern"  0 -10183 "kern" 
 EndChar
 
 StartChar: exclam
 Encoding: 33 33 4
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -313,8 +323,8 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 5
-Width: 256
-Flags: W
+Width: 192
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -330,81 +340,82 @@ SplineSet
  128 480 l 1,4,-1
 EndSplineSet
 Validated: 1
+Kerns2: 113 -256 "kern"  99 -320 "kern"  45 -320 "kern"  18 -288 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: numbersign
 Encoding: 35 35 6
 Width: 704
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-352 224 m 1,0,-1
- 352 320 l 1,1,-1
- 384 320 l 1,2,-1
- 384 416 l 1,3,-1
- 224 416 l 1,4,-1
- 224 320 l 1,5,-1
- 192 320 l 1,6,-1
- 192 224 l 1,7,-1
- 352 224 l 1,0,-1
-0 0 m 1,8,-1
- 0 64 l 1,9,-1
- 32 64 l 1,10,-1
- 32 160 l 1,11,-1
- -64 160 l 1,12,-1
- -64 224 l 1,13,-1
- 96 224 l 1,14,-1
- 96 320 l 1,15,-1
- 128 320 l 1,16,-1
- 128 416 l 1,17,-1
- 32 416 l 1,18,-1
- 32 480 l 1,19,-1
- 192 480 l 1,20,-1
- 192 576 l 1,21,-1
- 224 576 l 1,22,-1
- 224 640 l 1,23,-1
- 320 640 l 1,24,-1
- 320 576 l 1,25,-1
- 288 576 l 1,26,-1
- 288 480 l 1,27,-1
- 448 480 l 1,28,-1
- 448 576 l 1,29,-1
- 480 576 l 1,30,-1
- 480 640 l 1,31,-1
- 576 640 l 1,32,-1
- 576 576 l 1,33,-1
- 544 576 l 1,34,-1
- 544 480 l 1,35,-1
- 640 480 l 1,36,-1
- 640 416 l 1,37,-1
- 480 416 l 1,38,-1
- 480 320 l 1,39,-1
- 448 320 l 1,40,-1
- 448 224 l 1,41,-1
- 544 224 l 1,42,-1
- 544 160 l 1,43,-1
- 384 160 l 1,44,-1
- 384 64 l 1,45,-1
- 352 64 l 1,46,-1
- 352 0 l 1,47,-1
- 256 0 l 1,48,-1
- 256 64 l 1,49,-1
- 288 64 l 1,50,-1
- 288 160 l 1,51,-1
- 128 160 l 1,52,-1
- 128 64 l 1,53,-1
- 96 64 l 1,54,-1
- 96 0 l 1,55,-1
- 0 0 l 1,8,-1
+416 224 m 1,0,-1
+ 416 320 l 1,1,-1
+ 448 320 l 1,2,-1
+ 448 416 l 1,3,-1
+ 288 416 l 1,4,-1
+ 288 320 l 1,5,-1
+ 256 320 l 1,6,-1
+ 256 224 l 1,7,-1
+ 416 224 l 1,0,-1
+64 0 m 1,8,-1
+ 64 64 l 1,9,-1
+ 96 64 l 1,10,-1
+ 96 160 l 1,11,-1
+ 0 160 l 1,12,-1
+ 0 224 l 1,13,-1
+ 160 224 l 1,14,-1
+ 160 320 l 1,15,-1
+ 192 320 l 1,16,-1
+ 192 416 l 1,17,-1
+ 96 416 l 1,18,-1
+ 96 480 l 1,19,-1
+ 256 480 l 1,20,-1
+ 256 576 l 1,21,-1
+ 288 576 l 1,22,-1
+ 288 640 l 1,23,-1
+ 384 640 l 1,24,-1
+ 384 576 l 1,25,-1
+ 352 576 l 1,26,-1
+ 352 480 l 1,27,-1
+ 512 480 l 1,28,-1
+ 512 576 l 1,29,-1
+ 544 576 l 1,30,-1
+ 544 640 l 1,31,-1
+ 640 640 l 1,32,-1
+ 640 576 l 1,33,-1
+ 608 576 l 1,34,-1
+ 608 480 l 1,35,-1
+ 704 480 l 1,36,-1
+ 704 416 l 1,37,-1
+ 544 416 l 1,38,-1
+ 544 320 l 1,39,-1
+ 512 320 l 1,40,-1
+ 512 224 l 1,41,-1
+ 608 224 l 1,42,-1
+ 608 160 l 1,43,-1
+ 448 160 l 1,44,-1
+ 448 64 l 1,45,-1
+ 416 64 l 1,46,-1
+ 416 0 l 1,47,-1
+ 320 0 l 1,48,-1
+ 320 64 l 1,49,-1
+ 352 64 l 1,50,-1
+ 352 160 l 1,51,-1
+ 192 160 l 1,52,-1
+ 192 64 l 1,53,-1
+ 160 64 l 1,54,-1
+ 160 0 l 1,55,-1
+ 64 0 l 1,8,-1
 EndSplineSet
-Validated: 1
+Kerns2: 206 -320 "kern"  203 -320 "kern"  199 -320 "kern"  120 -384 "kern"  116 -256 "kern"  66 -352 "kern"  17 -320 "kern"  15 -320 "kern" 
 EndChar
 
 StartChar: dollar
 Encoding: 36 36 7
-Width: 480
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -491,8 +502,8 @@ EndChar
 
 StartChar: percent
 Encoding: 37 37 8
-Width: 608
-Flags: W
+Width: 544
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -615,8 +626,8 @@ EndChar
 
 StartChar: ampersand
 Encoding: 38 38 9
-Width: 576
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -695,12 +706,13 @@ SplineSet
  128 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 10
-Width: 128
-Flags: W
+Width: 64
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -711,12 +723,13 @@ SplineSet
  0 480 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 113 -256 "kern"  99 -320 "kern"  45 -320 "kern"  18 -288 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: parenleft
 Encoding: 40 40 11
-Width: 288
-Flags: W
+Width: 224
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -763,8 +776,8 @@ EndChar
 
 StartChar: parenright
 Encoding: 41 41 12
-Width: 288
-Flags: W
+Width: 224
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -811,8 +824,8 @@ EndChar
 
 StartChar: asterisk
 Encoding: 42 42 13
-Width: 288
-Flags: W
+Width: 224
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -847,12 +860,13 @@ SplineSet
  32 448 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 183 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  45 -320 "kern"  36 -256 "kern"  18 -320 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: plus
 Encoding: 43 43 14
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -871,12 +885,13 @@ SplineSet
  192 32 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 206 -256 "kern"  203 -256 "kern"  202 -256 "kern"  201 -256 "kern"  200 -256 "kern"  199 -256 "kern"  198 -256 "kern"  197 -256 "kern"  121 -320 "kern"  120 -288 "kern"  119 -256 "kern"  115 -256 "kern"  114 -256 "kern"  112 -256 "kern"  67 -320 "kern"  66 -256 "kern"  65 -256 "kern"  55 -256 "kern"  34 -256 "kern"  17 -256 "kern"  15 -256 "kern"  13 -288 "kern"  10 -256 "kern"  5 -256 "kern" 
 EndChar
 
 StartChar: comma
 Encoding: 44 44 15
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -895,88 +910,29 @@ SplineSet
  0 -96 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -256 "kern"  194 -288 "kern"  157 -288 "kern"  118 -256 "kern"  109 -704 "kern"  102 -288 "kern"  63 -320 "kern"  60 -288 "kern"  57 -256 "kern"  55 -288 "kern"  34 -256 "kern"  23 -352 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: hyphen
 Encoding: 45 45 16
-Width: 456
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-384 224 m 1,0,-1
- 384 240 l 2,1,2
- 384 233 384 233 388 228 c 1,3,4
- 393 224 393 224 400 224 c 2,5,-1
- 384 224 l 1,0,-1
-416 224 m 1,6,-1
- 416 240 l 2,7,8
- 416 233 416 233 420 228 c 1,9,10
- 425 224 425 224 432 224 c 2,11,-1
- 416 224 l 1,6,-1
-448 224 m 1,12,-1
- 448 240 l 2,13,14
- 448 233 448 233 452 228 c 1,15,16
- 457 224 457 224 464 224 c 2,17,-1
- 448 224 l 1,12,-1
-384 256 m 1,18,-1
- 384 272 l 2,19,20
- 384 265 384 265 388 260 c 1,21,22
- 393 256 393 256 400 256 c 2,23,-1
- 384 256 l 1,18,-1
-416 256 m 1,24,-1
- 416 272 l 2,25,26
- 416 265 416 265 420 260 c 1,27,28
- 425 256 425 256 432 256 c 2,29,-1
- 416 256 l 1,24,-1
-448 256 m 1,30,-1
- 448 272 l 2,31,32
- 448 265 448 265 452 260 c 1,33,34
- 457 256 457 256 464 256 c 2,35,-1
- 448 256 l 1,30,-1
-480 256 m 1,36,-1
- 480 272 l 2,37,38
- 480 265 480 265 484 260 c 1,39,40
- 489 256 489 256 496 256 c 2,41,-1
- 480 256 l 1,36,-1
-384 288 m 1,42,-1
- 384 304 l 2,43,44
- 384 297 384 297 388 292 c 1,45,46
- 393 288 393 288 400 288 c 2,47,-1
- 384 288 l 1,42,-1
-416 288 m 1,48,-1
- 416 304 l 2,49,50
- 416 297 416 297 420 292 c 1,51,52
- 425 288 425 288 432 288 c 2,53,-1
- 416 288 l 1,48,-1
-448 288 m 1,54,-1
- 448 304 l 2,55,56
- 448 297 448 297 452 292 c 1,57,58
- 457 288 457 288 464 288 c 2,59,-1
- 448 288 l 1,54,-1
-0 224 m 1,60,-1
- 0 320 l 1,61,-1
- 352 320 l 1,62,-1
- 352 304 l 2,63,64
- 352 297 352 297 356 292 c 1,65,66
- 361 288 361 288 368 288 c 2,67,-1
- 352 288 l 1,68,-1
- 352 272 l 2,69,70
- 352 265 352 265 356 260 c 1,71,72
- 361 256 361 256 368 256 c 2,73,-1
- 352 256 l 1,74,-1
- 352 240 l 2,75,76
- 352 233 352 233 356 228 c 1,77,78
- 361 224 361 224 368 224 c 2,79,-1
- 0 224 l 1,60,-1
+352 224 m 25,0,-1
+ 0 224 l 1,1,-1
+ 0 320 l 1,2,-1
+ 352 320 l 1,3,-1
+ 352 224 l 25,0,-1
 EndSplineSet
-Validated: 1
+Kerns2: 210 -232 "kern"  208 -232 "kern"  194 -232 "kern"  157 -232 "kern"  116 -232 "kern"  64 -232 "kern"  63 -264 "kern"  60 -232 "kern"  59 -232 "kern"  55 -328 "kern"  34 -296 "kern"  26 -264 "kern"  22 -264 "kern"  21 -232 "kern"  8 -232 "kern" 
 EndChar
 
 StartChar: period
 Encoding: 46 46 17
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -987,12 +943,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -256 "kern"  194 -288 "kern"  157 -288 "kern"  118 -256 "kern"  109 -704 "kern"  102 -288 "kern"  63 -320 "kern"  60 -288 "kern"  57 -256 "kern"  55 -288 "kern"  34 -256 "kern"  23 -352 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: slash
 Encoding: 47 47 18
-Width: 508
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1047,12 +1004,13 @@ SplineSet
  0 -64 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 206 -316 "kern"  203 -316 "kern"  199 -316 "kern"  134 -316 "kern"  133 -284 "kern"  129 -316 "kern"  128 -284 "kern"  120 -412 "kern"  66 -380 "kern"  45 -252 "kern"  36 -316 "kern"  18 -380 "kern"  17 -316 "kern"  15 -316 "kern" 
 EndChar
 
 StartChar: zero
 Encoding: 48 48 19
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1112,8 +1070,8 @@ EndChar
 
 StartChar: one
 Encoding: 49 49 20
-Width: 256
-Flags: W
+Width: 192
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1136,86 +1094,85 @@ EndChar
 
 StartChar: two
 Encoding: 50 50 21
-Width: 544
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-32 0 m 1,0,-1
- 32 96 l 1,1,-1
- 64 96 l 1,2,-1
- 64 128 l 1,3,-1
- 96 128 l 1,4,-1
- 96 160 l 1,5,-1
- 128 160 l 1,6,-1
- 128 192 l 1,7,-1
- 160 192 l 1,8,-1
- 160 224 l 1,9,-1
- 192 224 l 1,10,-1
- 192 256 l 1,11,-1
- 224 256 l 1,12,-1
- 224 288 l 1,13,-1
- 256 288 l 1,14,-1
- 256 320 l 1,15,-1
- 288 320 l 1,16,-1
- 288 352 l 1,17,-1
- 320 352 l 1,18,-1
- 320 384 l 1,19,-1
- 352 384 l 1,20,-1
- 352 512 l 1,21,-1
- 320 512 l 1,22,-1
- 320 544 l 1,23,-1
- 192 544 l 1,24,-1
- 192 512 l 1,25,-1
- 160 512 l 1,26,-1
- 160 480 l 1,27,-1
- 128 480 l 1,28,-1
- 128 416 l 1,29,-1
- 32 416 l 1,30,-1
- 32 480 l 1,31,-1
- 64 480 l 1,32,-1
- 64 544 l 1,33,-1
- 96 544 l 1,34,-1
- 96 576 l 1,35,-1
- 128 576 l 1,36,-1
- 128 608 l 1,37,-1
- 160 608 l 1,38,-1
- 160 640 l 1,39,-1
- 352 640 l 1,40,-1
- 352 608 l 1,41,-1
- 384 608 l 1,42,-1
- 384 576 l 1,43,-1
- 416 576 l 1,44,-1
- 416 544 l 1,45,-1
- 448 544 l 1,46,-1
- 448 352 l 1,47,-1
- 416 352 l 1,48,-1
- 416 320 l 1,49,-1
- 384 320 l 1,50,-1
- 384 288 l 1,51,-1
- 352 288 l 1,52,-1
- 352 256 l 1,53,-1
- 320 256 l 1,54,-1
- 320 224 l 1,55,-1
- 288 224 l 1,56,-1
- 288 192 l 1,57,-1
- 256 192 l 1,58,-1
- 256 160 l 1,59,-1
- 224 160 l 1,60,-1
- 224 128 l 1,61,-1
- 192 128 l 1,62,-1
- 192 96 l 1,63,-1
- 480 96 l 1,64,-1
- 480 0 l 1,65,-1
- 32 0 l 1,0,-1
+0 0 m 1,0,-1
+ 0 96 l 1,1,-1
+ 32 96 l 1,2,-1
+ 32 128 l 1,3,-1
+ 64 128 l 1,4,-1
+ 64 160 l 1,5,-1
+ 96 160 l 1,6,-1
+ 96 192 l 1,7,-1
+ 128 192 l 1,8,-1
+ 128 224 l 1,9,-1
+ 160 224 l 1,10,-1
+ 160 256 l 1,11,-1
+ 192 256 l 1,12,-1
+ 192 288 l 1,13,-1
+ 224 288 l 1,14,-1
+ 224 320 l 1,15,-1
+ 256 320 l 1,16,-1
+ 256 352 l 1,17,-1
+ 288 352 l 1,18,-1
+ 288 384 l 1,19,-1
+ 320 384 l 1,20,-1
+ 320 512 l 1,21,-1
+ 288 512 l 1,22,-1
+ 288 544 l 1,23,-1
+ 160 544 l 1,24,-1
+ 160 512 l 1,25,-1
+ 128 512 l 1,26,-1
+ 128 480 l 1,27,-1
+ 96 480 l 1,28,-1
+ 96 416 l 1,29,-1
+ 0 416 l 1,30,-1
+ 0 480 l 1,31,-1
+ 32 480 l 1,32,-1
+ 32 544 l 1,33,-1
+ 64 544 l 1,34,-1
+ 64 576 l 1,35,-1
+ 96 576 l 1,36,-1
+ 96 608 l 1,37,-1
+ 128 608 l 1,38,-1
+ 128 640 l 1,39,-1
+ 320 640 l 1,40,-1
+ 320 608 l 1,41,-1
+ 352 608 l 1,42,-1
+ 352 576 l 1,43,-1
+ 384 576 l 1,44,-1
+ 384 544 l 1,45,-1
+ 416 544 l 1,46,-1
+ 416 352 l 1,47,-1
+ 384 352 l 1,48,-1
+ 384 320 l 1,49,-1
+ 352 320 l 1,50,-1
+ 352 288 l 1,51,-1
+ 320 288 l 1,52,-1
+ 320 256 l 1,53,-1
+ 288 256 l 1,54,-1
+ 288 224 l 1,55,-1
+ 256 224 l 1,56,-1
+ 256 192 l 1,57,-1
+ 224 192 l 1,58,-1
+ 224 160 l 1,59,-1
+ 192 160 l 1,60,-1
+ 192 128 l 1,61,-1
+ 160 128 l 1,62,-1
+ 160 96 l 1,63,-1
+ 448 96 l 1,64,-1
+ 448 0 l 1,65,-1
+ 0 0 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: three
 Encoding: 51 51 22
-Width: 480
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1286,8 +1243,8 @@ EndChar
 
 StartChar: four
 Encoding: 52 52 23
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1337,12 +1294,13 @@ SplineSet
  288 0 l 1,14,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: five
 Encoding: 53 53 24
-Width: 512
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1403,12 +1361,13 @@ SplineSet
  128 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: six
 Encoding: 54 54 25
-Width: 512
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1476,8 +1435,8 @@ EndChar
 
 StartChar: seven
 Encoding: 55 55 26
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1520,12 +1479,13 @@ SplineSet
  128 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 206 -288 "kern"  203 -288 "kern"  199 -288 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  120 -352 "kern"  66 -320 "kern"  36 -256 "kern"  18 -320 "kern"  17 -288 "kern"  15 -288 "kern" 
 EndChar
 
 StartChar: eight
 Encoding: 56 56 27
-Width: 512
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1610,12 +1570,13 @@ SplineSet
  128 0 l 1,28,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: nine
 Encoding: 57 57 28
-Width: 512
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1683,8 +1644,8 @@ EndChar
 
 StartChar: colon
 Encoding: 58 58 29
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1700,12 +1661,13 @@ SplineSet
  0 320 l 1,4,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -288 "kern" 
 EndChar
 
 StartChar: semicolon
 Encoding: 59 59 30
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1729,12 +1691,13 @@ SplineSet
  0 352 l 1,12,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -288 "kern" 
 EndChar
 
 StartChar: less
 Encoding: 60 60 31
-Width: 352
-Flags: W
+Width: 288
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1805,8 +1768,8 @@ EndChar
 
 StartChar: equal
 Encoding: 61 61 32
-Width: 576
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1822,12 +1785,13 @@ SplineSet
  0 352 l 1,4,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -288 "kern" 
 EndChar
 
 StartChar: greater
 Encoding: 62 62 33
-Width: 352
-Flags: W
+Width: 288
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1894,12 +1858,13 @@ SplineSet
  32 64 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 208 -256 "kern"  121 -256 "kern"  116 -416 "kern"  112 -256 "kern"  67 -320 "kern"  55 -256 "kern"  26 -256 "kern" 
 EndChar
 
 StartChar: question
 Encoding: 63 63 34
-Width: 512
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1959,12 +1924,13 @@ SplineSet
  192 192 l 1,4,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern" 
 EndChar
 
 StartChar: at
 Encoding: 64 64 35
-Width: 576
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2066,12 +2032,13 @@ SplineSet
  160 -32 l 1,10,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -320 "kern"  116 -256 "kern"  66 -288 "kern" 
 EndChar
 
 StartChar: A
 Encoding: 65 65 36
-Width: 672
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2143,13 +2110,13 @@ SplineSet
  0 0 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 57 -137 "kern"  16 -64 "kern"  92 -96 "kern"  90 -96 "kern"  89 -96 "kern"  87 -64 "kern"  73 -64 "kern" 
+Kerns2: 210 -281 "kern"  202 -249 "kern"  201 -249 "kern"  200 -249 "kern"  198 -249 "kern"  197 -249 "kern"  194 -313 "kern"  157 -313 "kern"  121 -313 "kern"  119 -249 "kern"  116 -441 "kern"  115 -249 "kern"  114 -249 "kern"  112 -281 "kern"  111 -313 "kern"  67 -313 "kern"  65 -281 "kern"  63 -345 "kern"  60 -313 "kern"  13 -281 "kern"  10 -249 "kern"  5 -249 "kern"  57 -281 "kern"  55 -281 "kern" 
 EndChar
 
 StartChar: B
 Encoding: 66 66 37
-Width: 538
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2196,13 +2163,13 @@ SplineSet
  0 0 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 92 -58 "kern"  90 -58 "kern"  89 -58 "kern"  87 -58 "kern"  76 -51 "kern"  73 -58 "kern" 
+Kerns2: 116 -250 "kern" 
 EndChar
 
 StartChar: C
 Encoding: 67 67 38
-Width: 640
-Flags: W
+Width: 576
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2281,12 +2248,13 @@ SplineSet
  224 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 196 -512 "kern"  116 -256 "kern"  109 -512 "kern" 
 EndChar
 
 StartChar: D
 Encoding: 68 68 39
-Width: 576
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2338,12 +2306,13 @@ SplineSet
  0 0 l 1,20,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: E
 Encoding: 69 69 40
-Width: 448
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2366,8 +2335,8 @@ EndChar
 
 StartChar: F
 Encoding: 70 70 41
-Width: 448
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2384,13 +2353,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 15 -288 "kern"  17 -288 "kern" 
+Kerns2: 206 -352 "kern"  203 -352 "kern"  199 -352 "kern"  120 -384 "kern"  66 -352 "kern"  45 -320 "kern"  17 -352 "kern"  15 -352 "kern" 
 EndChar
 
 StartChar: G
 Encoding: 71 71 42
-Width: 640
-Flags: W
+Width: 576
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2473,12 +2442,13 @@ SplineSet
  224 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: H
 Encoding: 72 72 43
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2501,8 +2471,8 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 44
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2517,8 +2487,8 @@ EndChar
 
 StartChar: J
 Encoding: 74 74 45
-Width: 416
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2549,8 +2519,8 @@ EndChar
 
 StartChar: K
 Encoding: 75 75 46
-Width: 640
-Flags: W
+Width: 576
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2641,13 +2611,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -160 "kern"  92 -128 "kern"  90 -96 "kern"  89 -96 "kern"  87 -64 "kern"  73 -64 "kern" 
+Kerns2: 207 -320 "kern"  205 -288 "kern"  196 -320 "kern"  116 -256 "kern"  109 -288 "kern"  108 -288 "kern"  97 -256 "kern"  31 -288 "kern" 
 EndChar
 
 StartChar: L
 Encoding: 76 76 47
-Width: 480
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2660,13 +2630,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -320 "kern"  92 -96 "kern"  90 -96 "kern"  89 -96 "kern"  87 -64 "kern"  73 -64 "kern" 
+Kerns2: 210 -384 "kern"  207 -256 "kern"  205 -384 "kern"  202 -384 "kern"  201 -384 "kern"  200 -384 "kern"  198 -384 "kern"  197 -384 "kern"  196 -384 "kern"  194 -288 "kern"  157 -288 "kern"  121 -384 "kern"  119 -384 "kern"  118 -256 "kern"  116 -512 "kern"  115 -384 "kern"  114 -384 "kern"  112 -384 "kern"  111 -384 "kern"  109 -384 "kern"  102 -288 "kern"  97 -384 "kern"  67 -384 "kern"  65 -384 "kern"  63 -320 "kern"  60 -288 "kern"  57 -256 "kern"  55 -288 "kern"  34 -256 "kern"  23 -352 "kern"  14 -256 "kern"  13 -384 "kern"  10 -384 "kern"  5 -384 "kern"  16 -384 "kern" 
 EndChar
 
 StartChar: M
 Encoding: 77 77 48
-Width: 698
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2721,13 +2691,12 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -51 "kern" 
 EndChar
 
 StartChar: N
 Encoding: 78 78 49
-Width: 576
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2778,8 +2747,8 @@ EndChar
 
 StartChar: O
 Encoding: 79 79 50
-Width: 672
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2867,12 +2836,13 @@ SplineSet
  224 0 l 1,36,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -257 "kern"  116 -289 "kern"  66 -225 "kern"  64 -225 "kern" 
 EndChar
 
 StartChar: P
 Encoding: 80 80 51
-Width: 512
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2906,13 +2876,13 @@ SplineSet
  0 0 l 1,8,-1
 EndSplineSet
 Validated: 1
-Kerns2: 15 -352 "kern"  17 -352 "kern" 
+Kerns2: 206 -416 "kern"  203 -416 "kern"  199 -416 "kern"  120 -448 "kern"  66 -416 "kern"  45 -320 "kern"  18 -256 "kern"  17 -416 "kern"  15 -416 "kern" 
 EndChar
 
 StartChar: Q
 Encoding: 81 81 52
-Width: 672
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3010,12 +2980,13 @@ SplineSet
  320 -128 l 1,36,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: R
 Encoding: 82 82 53
-Width: 561
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3085,13 +3056,13 @@ SplineSet
  0 0 l 1,8,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -81 "kern"  92 -49 "kern"  90 -49 "kern"  89 -49 "kern"  87 -49 "kern"  73 -49 "kern" 
+Kerns2: 116 -241 "kern" 
 EndChar
 
 StartChar: S
 Encoding: 83 83 54
-Width: 480
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3164,8 +3135,8 @@ EndChar
 
 StartChar: T
 Encoding: 84 84 55
-Width: 576
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3180,13 +3151,13 @@ SplineSet
  224 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -192 "kern"  30 -192 "kern"  29 -192 "kern"  15 -192 "kern"  17 -192 "kern"  93 -124 "kern"  92 -151 "kern"  91 -110 "kern"  90 -137 "kern"  89 -151 "kern"  88 -124 "kern"  87 -64 "kern"  86 -124 "kern"  85 -124 "kern"  84 -150 "kern"  83 -137 "kern"  82 -110 "kern"  81 -123 "kern"  80 -124 "kern"  74 -151 "kern"  73 -64 "kern"  72 -162 "kern"  71 -124 "kern"  70 -137 "kern"  68 -150 "kern" 
+Kerns2: 206 -256 "kern"  205 -256 "kern"  203 -256 "kern"  199 -256 "kern"  196 -256 "kern"  192 -256 "kern"  190 -256 "kern"  183 -256 "kern"  167 -256 "kern"  166 -256 "kern"  159 -256 "kern"  151 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  120 -288 "kern"  117 -256 "kern"  113 -256 "kern"  109 -256 "kern"  108 -256 "kern"  97 -256 "kern"  66 -256 "kern"  45 -256 "kern"  36 -256 "kern"  32 -256 "kern"  31 -256 "kern"  18 -256 "kern"  14 -256 "kern"  30 -256 "kern"  17 -256 "kern"  16 -256 "kern"  15 -256 "kern"  29 -256 "kern"  93 -256 "kern"  92 -256 "kern"  91 -256 "kern"  90 -256 "kern"  89 -256 "kern"  88 -256 "kern"  86 -256 "kern"  85 -256 "kern"  84 -256 "kern"  83 -256 "kern"  82 -256 "kern"  81 -256 "kern"  80 -256 "kern"  74 -256 "kern"  72 -256 "kern"  71 -256 "kern"  70 -256 "kern"  68 -256 "kern" 
 EndChar
 
 StartChar: U
 Encoding: 85 85 56
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3225,8 +3196,8 @@ EndChar
 
 StartChar: V
 Encoding: 86 86 57
-Width: 608
-Flags: W
+Width: 544
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3289,13 +3260,13 @@ SplineSet
  224 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 36 -150 "kern"  16 -96 "kern"  29 -64 "kern"  15 -192 "kern"  17 -192 "kern"  86 -64 "kern"  84 -96 "kern"  82 -96 "kern"  74 -96 "kern"  72 -96 "kern"  71 -96 "kern"  70 -96 "kern"  68 -96 "kern" 
+Kerns2: 206 -265 "kern"  203 -265 "kern"  199 -265 "kern"  134 -265 "kern"  133 -265 "kern"  132 -265 "kern"  131 -265 "kern"  129 -265 "kern"  128 -265 "kern"  120 -329 "kern"  66 -297 "kern"  18 -297 "kern"  17 -265 "kern"  15 -265 "kern"  36 -265 "kern" 
 EndChar
 
 StartChar: W
 Encoding: 87 87 58
-Width: 800
-Flags: W
+Width: 736
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3374,13 +3345,13 @@ SplineSet
  160 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -64 "kern"  15 -128 "kern"  17 -128 "kern"  84 -64 "kern"  82 -64 "kern"  74 -64 "kern"  72 -64 "kern"  71 -64 "kern"  70 -64 "kern"  68 -64 "kern" 
+Kerns2: 120 -281 "kern"  66 -249 "kern"  18 -249 "kern" 
 EndChar
 
 StartChar: X
 Encoding: 88 88 59
-Width: 640
-Flags: W
+Width: 576
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3487,13 +3458,12 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -128 "kern"  92 -64 "kern"  90 -64 "kern"  89 -64 "kern"  87 -64 "kern"  73 -64 "kern" 
 EndChar
 
 StartChar: Y
 Encoding: 89 89 60
-Width: 608
-Flags: W
+Width: 544
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3552,13 +3522,13 @@ SplineSet
  224 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -128 "kern"  30 -64 "kern"  29 -96 "kern"  15 -224 "kern"  17 -224 "kern"  93 -64 "kern"  92 -64 "kern"  91 -64 "kern"  90 -64 "kern"  89 -64 "kern"  88 -64 "kern"  87 -64 "kern"  86 -96 "kern"  85 -64 "kern"  84 -128 "kern"  83 -64 "kern"  82 -128 "kern"  81 -64 "kern"  80 -64 "kern"  74 -128 "kern"  73 -64 "kern"  72 -128 "kern"  71 -128 "kern"  70 -128 "kern"  68 -128 "kern" 
+Kerns2: 206 -288 "kern"  203 -288 "kern"  199 -288 "kern"  134 -288 "kern"  133 -288 "kern"  132 -288 "kern"  131 -288 "kern"  129 -288 "kern"  128 -288 "kern"  120 -320 "kern"  66 -288 "kern"  45 -256 "kern"  36 -288 "kern"  18 -288 "kern"  17 -288 "kern"  15 -288 "kern" 
 EndChar
 
 StartChar: Z
 Encoding: 90 90 61
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3615,33 +3585,31 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -128 "kern" 
 EndChar
 
 StartChar: bracketleft
 Encoding: 91 91 62
-Width: 256
-Flags: W
+Width: 193
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 -96 m 1,0,-1
- 0 736 l 1,1,-1
- 192 736 l 1,2,-1
- 192 672 l 1,3,-1
- 64 672 l 1,4,-1
- 64 -32 l 1,5,-1
- 192 -32 l 1,6,-1
- 192 -96 l 1,7,-1
- 0 -96 l 1,0,-1
+1 -96 m 1,0,-1
+ 1 736 l 1,1,-1
+ 193 736 l 1,2,-1
+ 193 672 l 1,3,-1
+ 65 672 l 1,4,-1
+ 65 -32 l 1,5,-1
+ 193 -32 l 1,6,-1
+ 193 -96 l 1,7,-1
+ 1 -96 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: backslash
 Encoding: 92 92 63
-Width: 512
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3696,12 +3664,13 @@ SplineSet
  352 -64 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -288 "kern"  202 -288 "kern"  201 -288 "kern"  200 -288 "kern"  198 -288 "kern"  197 -288 "kern"  194 -288 "kern"  157 -288 "kern"  121 -352 "kern"  119 -288 "kern"  118 -256 "kern"  116 -480 "kern"  115 -288 "kern"  114 -288 "kern"  112 -320 "kern"  111 -352 "kern"  105 -416 "kern"  67 -352 "kern"  65 -320 "kern"  63 -384 "kern"  60 -288 "kern"  57 -288 "kern"  55 -288 "kern"  34 -256 "kern"  13 -320 "kern"  10 -288 "kern"  5 -288 "kern" 
 EndChar
 
 StartChar: bracketright
 Encoding: 93 93 64
-Width: 256
-Flags: W
+Width: 192
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3720,8 +3689,8 @@ EndChar
 
 StartChar: asciicircum
 Encoding: 94 94 65
-Width: 384
-Flags: W
+Width: 320
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3752,12 +3721,13 @@ SplineSet
  0 512 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  130 -256 "kern"  129 -256 "kern"  128 -256 "kern"  113 -256 "kern"  99 -352 "kern"  45 -320 "kern"  36 -256 "kern"  18 -320 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: underscore
 Encoding: 95 95 66
-Width: 736
-Flags: W
+Width: 672
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3768,12 +3738,13 @@ SplineSet
  0 -64 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -352 "kern"  194 -288 "kern"  157 -288 "kern"  118 -256 "kern"  109 -704 "kern"  102 -288 "kern"  63 -384 "kern"  60 -288 "kern"  57 -288 "kern"  55 -288 "kern"  34 -256 "kern"  23 -352 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: grave
 Encoding: 96 96 67
-Width: 224
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3792,12 +3763,13 @@ SplineSet
  64 544 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  113 -256 "kern"  108 -256 "kern"  71 -384 "kern"  45 -320 "kern"  36 -256 "kern"  31 -256 "kern"  18 -320 "kern"  14 -256 "kern"  6 -256 "kern" 
 EndChar
 
 StartChar: a
 Encoding: 97 97 68
-Width: 516
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3849,13 +3821,13 @@ SplineSet
  128 0 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 210 -229 "kern"  116 -229 "kern"  55 -325 "kern"  26 -229 "kern" 
 EndChar
 
 StartChar: b
 Encoding: 98 98 69
-Width: 496
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3907,13 +3879,13 @@ SplineSet
  0 0 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -41 "kern" 
+Kerns2: 116 -528 "kern"  111 -400 "kern"  67 -400 "kern"  55 -304 "kern" 
 EndChar
 
 StartChar: c
 Encoding: 99 99 70
-Width: 452
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3960,13 +3932,13 @@ SplineSet
  128 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 210 -228 "kern"  116 -228 "kern"  55 -324 "kern"  26 -228 "kern" 
 EndChar
 
 StartChar: d
 Encoding: 100 100 71
-Width: 516
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4018,13 +3990,13 @@ SplineSet
  128 0 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 116 -294 "kern"  96 -230 "kern" 
 EndChar
 
 StartChar: e
 Encoding: 101 101 72
-Width: 482
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4078,13 +4050,13 @@ SplineSet
  128 0 l 1,8,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -59 "kern" 
+Kerns2: 210 -260 "kern"  194 -260 "kern"  157 -260 "kern"  121 -260 "kern"  120 -228 "kern"  116 -260 "kern"  112 -260 "kern"  96 -228 "kern"  65 -260 "kern"  64 -260 "kern"  63 -260 "kern"  60 -260 "kern"  57 -228 "kern"  55 -356 "kern"  26 -260 "kern" 
 EndChar
 
 StartChar: f
 Encoding: 102 102 73
-Width: 318
-Flags: W
+Width: 288
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4111,13 +4083,12 @@ SplineSet
  64 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -94 "kern"  15 -94 "kern"  17 -94 "kern" 
 EndChar
 
 StartChar: g
 Encoding: 103 103 74
-Width: 516
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4191,13 +4162,13 @@ SplineSet
  128 -192 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 210 -228 "kern"  116 -228 "kern"  55 -324 "kern"  26 -228 "kern" 
 EndChar
 
 StartChar: h
 Encoding: 104 104 75
-Width: 506
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4230,35 +4201,34 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -51 "kern" 
+Kerns2: 116 -538 "kern"  111 -410 "kern"  67 -410 "kern"  55 -314 "kern" 
 EndChar
 
 StartChar: i
 Encoding: 105 105 76
-Width: 216
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-25 0 m 1,0,-1
- 25 480 l 1,1,-1
- 121 480 l 1,2,-1
- 121 0 l 1,3,-1
- 25 0 l 1,0,-1
-25 544 m 1,4,-1
- 25 640 l 1,5,-1
- 121 640 l 1,6,-1
- 121 544 l 1,7,-1
- 25 544 l 1,4,-1
+0 0 m 1,0,-1
+ 0 480 l 1,1,-1
+ 95.999 480 l 1,2,-1
+ 95.999 0 l 1,3,-1
+ 0 0 l 1,0,-1
+0 544 m 1,4,-1
+ 0 640 l 1,5,-1
+ 95.999 640 l 1,6,-1
+ 95.999 544 l 1,7,-1
+ 0 544 l 1,4,-1
 EndSplineSet
-Validated: 1
-Kerns2: 76 -56 "kern" 
+Kerns2: 116 -250 "kern" 
 EndChar
 
 StartChar: j
 Encoding: 106 106 77
-Width: 196
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4274,13 +4244,13 @@ SplineSet
  0 544 l 1,4,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 116 -228 "kern" 
 EndChar
 
 StartChar: k
 Encoding: 107 107 78
-Width: 516
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4347,13 +4317,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -132 "kern"  84 -68 "kern"  82 -68 "kern"  76 -61 "kern"  74 -68 "kern"  72 -68 "kern"  71 -68 "kern"  70 -68 "kern"  68 -68 "kern" 
+Kerns2: 210 -228 "kern"  183 -228 "kern"  116 -548 "kern"  111 -420 "kern"  67 -420 "kern"  55 -324 "kern"  26 -228 "kern" 
 EndChar
 
 StartChar: l
 Encoding: 108 108 79
-Width: 196
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4364,13 +4334,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 116 -229 "kern" 
 EndChar
 
 StartChar: m
 Encoding: 109 109 80
-Width: 708
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4419,13 +4389,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 210 -228 "kern"  194 -228 "kern"  157 -228 "kern"  121 -228 "kern"  116 -228 "kern"  112 -228 "kern"  63 -228 "kern"  60 -228 "kern"  55 -324 "kern"  26 -228 "kern" 
 EndChar
 
 StartChar: n
 Encoding: 110 110 81
-Width: 484
-Flags: W
+Width: 384
+Flags: HW
 HStem: 0 21G<0 96 288 384> 352 96<128 160 256 288> 384 96<160 256>
 VStem: 0 96<0 320 416 480> 288 96<0 352>
 LayerCount: 2
@@ -4459,14 +4429,13 @@ SplineSet
  96 0 l 1,25,-1
  0 0 l 1,0,-1
 EndSplineSet
-Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 55 -307 "kern" 
 EndChar
 
 StartChar: o
 Encoding: 111 111 82
-Width: 484
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4514,13 +4483,13 @@ SplineSet
  128 0 l 1,12,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 210 -234 "kern"  194 -234 "kern"  157 -234 "kern"  121 -234 "kern"  116 -234 "kern"  112 -234 "kern"  65 -234 "kern"  64 -234 "kern"  63 -234 "kern"  60 -234 "kern"  55 -330 "kern"  26 -234 "kern" 
 EndChar
 
 StartChar: p
 Encoding: 112 112 83
-Width: 516
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4572,13 +4541,13 @@ SplineSet
  0 -192 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 55 -308 "kern" 
 EndChar
 
 StartChar: q
 Encoding: 113 113 84
-Width: 516
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4630,13 +4599,13 @@ SplineSet
  320 -192 l 1,16,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 210 -236 "kern"  116 -236 "kern"  55 -332 "kern"  26 -236 "kern" 
 EndChar
 
 StartChar: r
 Encoding: 114 114 85
-Width: 412
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4669,13 +4638,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 15 -252 "kern"  17 -252 "kern" 
+Kerns2: 208 -252 "kern"  206 -316 "kern"  203 -316 "kern"  199 -316 "kern"  120 -348 "kern"  66 -316 "kern"  61 -252 "kern"  55 -284 "kern"  45 -316 "kern"  26 -284 "kern"  17 -316 "kern"  15 -316 "kern" 
 EndChar
 
 StartChar: s
 Encoding: 115 115 86
-Width: 420
-Flags: W
+Width: 320
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4744,13 +4713,13 @@ SplineSet
  64 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 92 -68 "kern"  90 -68 "kern"  89 -68 "kern"  87 -68 "kern"  76 -61 "kern"  73 -68 "kern" 
+Kerns2: 55 -299 "kern" 
 EndChar
 
 StartChar: t
 Encoding: 116 116 87
-Width: 358
-Flags: W
+Width: 288
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4769,13 +4738,13 @@ SplineSet
  64 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -134 "kern"  15 -134 "kern"  17 -134 "kern" 
+Kerns2: 120 -238 "kern"  116 -334 "kern" 
 EndChar
 
 StartChar: u
 Encoding: 117 117 88
-Width: 484
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4806,13 +4775,13 @@ SplineSet
  64 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 76 -61 "kern" 
+Kerns2: 210 -244 "kern"  116 -244 "kern"  55 -340 "kern"  26 -244 "kern" 
 EndChar
 
 StartChar: v
 Encoding: 118 118 89
-Width: 480
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4854,95 +4823,81 @@ SplineSet
  288 0 l 1,35,-1
  128 0 l 1,0,-1
 EndSplineSet
-Validated: 1
-Kerns2: 15 -96 "kern"  17 -96 "kern" 
+Kerns2: 120 -240 "kern"  55 -304 "kern"  26 -272 "kern" 
 EndChar
 
 StartChar: w
 Encoding: 119 119 90
-Width: 672
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-128 0 m 1,0,-1
- 128 64 l 1,1,-1
- 96 64 l 1,2,-1
- 96 160 l 1,3,-1
- 64 160 l 1,4,-1
- 64 288 l 1,5,-1
- 32 288 l 1,6,-1
- 32 384 l 1,7,-1
- 0 384 l 1,8,-1
- 0 480 l 1,9,-1
- 96 480 l 1,10,-1
- 96 384 l 1,11,-1
- 128 384 l 1,12,-1
- 128 288 l 1,13,-1
- 160 288 l 1,14,-1
- 160 192 l 1,15,-1
- 192 192 l 1,16,-1
- 192 96 l 1,17,-1
- 224 96 l 1,18,-1
- 224 192 l 1,19,-1
- 256 192 l 1,20,-1
- 256 288 l 1,21,-1
- 224 288 l 1,22,-1
- 224 384 l 1,23,-1
- 192 384 l 1,24,-1
- 192 480 l 1,25,-1
- 256 480 l 1,26,-1
- 256 416 l 1,27,-1
- 288 416 l 1,28,-1
- 288 320 l 1,29,-1
- 320 320 l 1,30,-1
- 320 416 l 1,31,-1
- 352 416 l 1,32,-1
- 352 480 l 1,33,-1
- 416 480 l 1,34,-1
- 416 384 l 1,35,-1
- 384 384 l 1,36,-1
- 384 288 l 1,37,-1
- 352 288 l 1,38,-1
- 352 192 l 1,39,-1
- 384 192 l 1,40,-1
- 384 96 l 1,41,-1
- 416 96 l 1,42,-1
- 416 192 l 1,43,-1
- 448 192 l 1,44,-1
- 448 288 l 1,45,-1
- 480 288 l 1,46,-1
- 480 384 l 1,47,-1
- 512 384 l 1,48,-1
- 512 480 l 1,49,-1
- 608 480 l 1,50,-1
- 608 384 l 1,51,-1
- 576 384 l 1,52,-1
- 576 288 l 1,53,-1
- 544 288 l 1,54,-1
- 544 160 l 1,55,-1
- 512 160 l 1,56,-1
- 512 64 l 1,57,-1
- 480 64 l 1,58,-1
- 480 0 l 1,59,-1
- 352 0 l 1,60,-1
- 352 64 l 1,61,-1
- 320 64 l 1,62,-1
- 320 160 l 1,63,-1
- 288 160 l 1,64,-1
- 288 64 l 1,65,-1
- 256 64 l 1,66,-1
- 256 0 l 1,67,-1
- 128 0 l 1,0,-1
+352 288 m 1,0,-1
+ 352 192 l 1,1,-1
+ 384 192 l 1,2,-1
+ 384 96 l 1,3,-1
+ 416 96 l 1,4,-1
+ 416 192 l 1,5,-1
+ 448 192 l 1,6,-1
+ 448 288 l 1,7,-1
+ 480 288 l 1,8,-1
+ 480 384 l 1,9,-1
+ 512 384 l 1,10,-1
+ 512 480 l 1,11,-1
+ 608 480 l 1,12,-1
+ 608 384 l 1,13,-1
+ 576 384 l 1,14,-1
+ 576 288 l 1,15,-1
+ 544 288 l 1,16,-1
+ 544 160 l 1,17,-1
+ 512 160 l 1,18,-1
+ 512 64 l 1,19,-1
+ 480 64 l 1,20,-1
+ 480 0 l 1,21,-1
+ 352 0 l 1,22,-1
+ 352 64 l 1,23,-1
+ 320 64 l 1,24,-1
+ 320 160 l 1,25,-1
+ 288 160 l 1,26,-1
+ 288 64 l 1,27,-1
+ 256 64 l 1,28,-1
+ 256 0 l 1,29,-1
+ 128 0 l 1,30,-1
+ 128 64 l 1,31,-1
+ 96 64 l 1,32,-1
+ 96 160 l 1,33,-1
+ 64 160 l 1,34,-1
+ 64 288 l 1,35,-1
+ 32 288 l 1,36,-1
+ 32 384 l 1,37,-1
+ 0 384 l 1,38,-1
+ 0 480 l 1,39,-1
+ 96 480 l 1,40,-1
+ 96 384 l 1,41,-1
+ 128 384 l 1,42,-1
+ 128 288 l 1,43,-1
+ 160 288 l 1,44,-1
+ 160 192 l 1,45,-1
+ 192 192 l 1,46,-1
+ 192 96 l 1,47,-1
+ 224 96 l 1,48,-1
+ 224 192 l 1,49,-1
+ 256 192 l 1,50,-1
+ 256 288 l 1,51,-1
+ 288 288 l 1,52,-1
+ 288 352 l 1,53,-1
+ 320 352 l 1,54,-1
+ 320 288 l 5,55,-1
+ 352 288 l 1,0,-1
 EndSplineSet
-Validated: 1
-Kerns2: 15 -96 "kern"  17 -96 "kern" 
+Kerns2: 55 -288 "kern"  26 -256 "kern" 
 EndChar
 
 StartChar: x
 Encoding: 120 120 91
-Width: 448
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5025,12 +4980,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -296 "kern" 
 EndChar
 
 StartChar: y
 Encoding: 121 121 92
-Width: 484
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5081,13 +5037,13 @@ SplineSet
  96 -192 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -68 "kern"  15 -132 "kern"  17 -132 "kern"  76 -61 "kern" 
+Kerns2: 210 -228 "kern"  120 -260 "kern"  116 -228 "kern"  66 -228 "kern"  64 -228 "kern"  55 -324 "kern"  26 -324 "kern"  18 -228 "kern" 
 EndChar
 
 StartChar: z
 Encoding: 122 122 93
-Width: 516
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5138,13 +5094,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 16 -68 "kern"  76 -61 "kern" 
+Kerns2: 210 -270 "kern"  116 -270 "kern"  55 -366 "kern"  26 -270 "kern" 
 EndChar
 
 StartChar: braceleft
 Encoding: 123 123 94
-Width: 320
-Flags: W
+Width: 256
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5191,28 +5147,28 @@ SplineSet
  128 -96 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: bar
 Encoding: 124 124 95
-Width: 128
-Flags: W
+Width: 65
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 -96 m 1,0,-1
- 0 736 l 1,1,-1
- 64 736 l 1,2,-1
- 64 -96 l 1,3,-1
- 0 -96 l 1,0,-1
+1 -96 m 1,0,-1
+ 1 736 l 1,1,-1
+ 65 736 l 1,2,-1
+ 65 -96 l 1,3,-1
+ 1 -96 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceright
 Encoding: 125 125 96
-Width: 320
-Flags: W
+Width: 256
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5259,12 +5215,13 @@ SplineSet
  0 -96 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: asciitilde
 Encoding: 126 126 97
-Width: 448
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5299,12 +5256,13 @@ SplineSet
  0 256 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 208 -256 "kern"  55 -288 "kern"  26 -256 "kern" 
 EndChar
 
 StartChar: exclamdown
 Encoding: 161 161 98
-Width: 192
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5324,76 +5282,76 @@ EndChar
 
 StartChar: cent
 Encoding: 162 162 99
-Width: 448
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
--64 -32 m 1,0,-1
- -64 0 l 1,1,-1
- -32 0 l 1,2,-1
- -32 32 l 1,3,-1
- 0 32 l 1,4,-1
- 0 320 l 1,5,-1
- 32 320 l 1,6,-1
- 32 352 l 1,7,-1
- 64 352 l 1,8,-1
- 64 384 l 1,9,-1
- 96 384 l 1,10,-1
- 96 416 l 1,11,-1
- 256 416 l 1,12,-1
- 256 448 l 1,13,-1
- 288 448 l 1,14,-1
- 288 480 l 1,15,-1
- 352 480 l 1,16,-1
- 352 448 l 1,17,-1
- 320 448 l 1,18,-1
- 320 416 l 1,19,-1
- 288 416 l 1,20,-1
- 288 384 l 1,21,-1
- 320 384 l 1,22,-1
- 320 352 l 1,23,-1
- 352 352 l 1,24,-1
- 352 288 l 1,25,-1
- 288 288 l 1,26,-1
- 288 320 l 1,27,-1
- 256 320 l 1,28,-1
- 256 352 l 1,29,-1
- 128 352 l 1,30,-1
- 128 320 l 1,31,-1
- 96 320 l 1,32,-1
- 96 288 l 1,33,-1
- 64 288 l 1,34,-1
- 64 128 l 1,35,-1
- 96 128 l 1,36,-1
- 96 96 l 1,37,-1
- 128 96 l 1,38,-1
- 128 64 l 1,39,-1
- 256 64 l 1,40,-1
- 256 96 l 1,41,-1
- 288 96 l 1,42,-1
- 288 128 l 1,43,-1
- 352 128 l 1,44,-1
- 352 64 l 1,45,-1
- 320 64 l 1,46,-1
- 320 32 l 1,47,-1
- 288 32 l 1,48,-1
- 288 0 l 1,49,-1
- 96 0 l 1,50,-1
- 96 32 l 1,51,-1
- 32 32 l 1,52,-1
- 32 0 l 1,53,-1
- 0 0 l 1,54,-1
- 0 -32 l 1,55,-1
- -64 -32 l 1,0,-1
+0 -32 m 1,0,-1
+ 0 0 l 1,1,-1
+ 32 0 l 1,2,-1
+ 32 32 l 1,3,-1
+ 64 32 l 1,4,-1
+ 64 320 l 1,5,-1
+ 96 320 l 1,6,-1
+ 96 352 l 1,7,-1
+ 128 352 l 1,8,-1
+ 128 384 l 1,9,-1
+ 160 384 l 1,10,-1
+ 160 416 l 1,11,-1
+ 320 416 l 1,12,-1
+ 320 448 l 1,13,-1
+ 352 448 l 1,14,-1
+ 352 480 l 1,15,-1
+ 416 480 l 1,16,-1
+ 416 448 l 1,17,-1
+ 384 448 l 1,18,-1
+ 384 416 l 1,19,-1
+ 352 416 l 1,20,-1
+ 352 384 l 1,21,-1
+ 384 384 l 1,22,-1
+ 384 352 l 1,23,-1
+ 416 352 l 1,24,-1
+ 416 288 l 1,25,-1
+ 352 288 l 1,26,-1
+ 352 320 l 1,27,-1
+ 320 320 l 1,28,-1
+ 320 352 l 1,29,-1
+ 192 352 l 1,30,-1
+ 192 320 l 1,31,-1
+ 160 320 l 1,32,-1
+ 160 288 l 1,33,-1
+ 128 288 l 1,34,-1
+ 128 128 l 1,35,-1
+ 160 128 l 1,36,-1
+ 160 96 l 1,37,-1
+ 192 96 l 1,38,-1
+ 192 64 l 1,39,-1
+ 320 64 l 1,40,-1
+ 320 96 l 1,41,-1
+ 352 96 l 1,42,-1
+ 352 128 l 1,43,-1
+ 416 128 l 1,44,-1
+ 416 64 l 1,45,-1
+ 384 64 l 1,46,-1
+ 384 32 l 1,47,-1
+ 352 32 l 1,48,-1
+ 352 0 l 1,49,-1
+ 160 0 l 1,50,-1
+ 160 32 l 1,51,-1
+ 96 32 l 1,52,-1
+ 96 0 l 1,53,-1
+ 64 0 l 1,54,-1
+ 64 -32 l 1,55,-1
+ 0 -32 l 1,0,-1
 EndSplineSet
-Validated: 1
+Kerns2: 55 -320 "kern" 
 EndChar
 
 StartChar: sterling
 Encoding: 163 163 100
-Width: 608
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5471,8 +5429,8 @@ EndChar
 
 StartChar: currency
 Encoding: 164 164 101
-Width: 736
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5560,12 +5518,13 @@ SplineSet
  32 0 l 1,20,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -352 "kern"  207 -256 "kern"  196 -256 "kern"  194 -288 "kern"  192 -256 "kern"  183 -256 "kern"  182 -256 "kern"  181 -256 "kern"  180 -256 "kern"  179 -256 "kern"  178 -256 "kern"  176 -256 "kern"  171 -256 "kern"  170 -256 "kern"  169 -256 "kern"  168 -256 "kern"  167 -256 "kern"  166 -256 "kern"  165 -256 "kern"  164 -256 "kern"  163 -256 "kern"  162 -256 "kern"  161 -256 "kern"  160 -256 "kern"  157 -288 "kern"  121 -288 "kern"  120 -256 "kern"  116 -352 "kern"  112 -256 "kern"  109 -256 "kern"  108 -256 "kern"  104 -256 "kern"  97 -256 "kern"  96 -320 "kern"  94 -256 "kern"  84 -256 "kern"  82 -256 "kern"  74 -256 "kern"  72 -256 "kern"  71 -256 "kern"  70 -256 "kern"  68 -256 "kern"  67 -320 "kern"  64 -256 "kern"  63 -288 "kern"  60 -288 "kern"  57 -256 "kern"  55 -256 "kern"  31 -256 "kern"  27 -256 "kern"  26 -256 "kern"  23 -256 "kern"  21 -256 "kern"  16 -256 "kern"  14 -256 "kern"  13 -256 "kern"  9 -256 "kern" 
 EndChar
 
 StartChar: yen
 Encoding: 165 165 102
-Width: 640
-Flags: W
+Width: 544
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5625,28 +5584,28 @@ SplineSet
  224 0 l 1,8,-1
 EndSplineSet
 Validated: 1
+Kerns2: 206 -320 "kern"  203 -320 "kern"  199 -320 "kern"  120 -352 "kern"  66 -320 "kern"  17 -320 "kern"  15 -320 "kern" 
 EndChar
 
 StartChar: brokenbar
 Encoding: 166 166 103
-Width: 160
-Flags: W
+Width: 65
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 -64 m 1,0,-1
- 0 704 l 1,1,-1
- 64 704 l 1,2,-1
- 64 -64 l 1,3,-1
- 0 -64 l 1,0,-1
+1 -64 m 1,0,-1
+ 1 704 l 1,1,-1
+ 65 704 l 1,2,-1
+ 65 -64 l 1,3,-1
+ 1 -64 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: section
 Encoding: 167 167 104
-Width: 352
-Flags: W
+Width: 320
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5754,8 +5713,8 @@ EndChar
 
 StartChar: dieresis
 Encoding: 168 168 105
-Width: 384
-Flags: W
+Width: 288
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5771,12 +5730,13 @@ SplineSet
  192 704 l 1,4,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -384 "kern"  157 -320 "kern"  154 -288 "kern"  150 -256 "kern"  147 -352 "kern"  146 -288 "kern"  137 -256 "kern"  133 -320 "kern"  132 -256 "kern"  129 -352 "kern"  128 -288 "kern"  116 -288 "kern"  110 -288 "kern"  106 -288 "kern"  18 -448 "kern"  7 -288 "kern" 
 EndChar
 
 StartChar: copyright
 Encoding: 169 169 106
-Width: 736
-Flags: W
+Width: 640
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5911,12 +5871,13 @@ SplineSet
  32 448 l 1,88,-1
 EndSplineSet
 Validated: 5
+Kerns2: 120 -256 "kern"  116 -256 "kern"  105 -288 "kern" 
 EndChar
 
 StartChar: ordfeminine
 Encoding: 170 170 107
-Width: 352
-Flags: W
+Width: 256
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5969,12 +5930,13 @@ SplineSet
  64 224 l 1,14,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: guillemotleft
 Encoding: 171 171 108
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6102,12 +6064,13 @@ SplineSet
  416 64 l 1,60,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: logicalnot
 Encoding: 172 172 109
-Width: 800
-Flags: W
+Width: 704
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6120,12 +6083,13 @@ SplineSet
  640 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -320 "kern"  34 -288 "kern" 
 EndChar
 
 StartChar: registered
 Encoding: 174 174 110
-Width: 736
-Flags: W
+Width: 640
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6251,12 +6215,13 @@ SplineSet
  32 448 l 1,78,-1
 EndSplineSet
 Validated: 5
+Kerns2: 120 -256 "kern"  116 -256 "kern"  105 -288 "kern" 
 EndChar
 
 StartChar: macron
 Encoding: 175 175 111
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6267,12 +6232,13 @@ SplineSet
  0 608 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -288 "kern"  179 -256 "kern"  169 -256 "kern"  161 -256 "kern"  134 -320 "kern"  133 -320 "kern"  132 -256 "kern"  129 -320 "kern"  128 -320 "kern"  127 -256 "kern"  113 -288 "kern"  100 -256 "kern"  71 -416 "kern"  45 -352 "kern"  36 -320 "kern"  23 -320 "kern"  18 -384 "kern"  6 -288 "kern" 
 EndChar
 
 StartChar: degree
 Encoding: 176 176 112
-Width: 288
-Flags: W
+Width: 192
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6304,12 +6270,13 @@ SplineSet
  64 480 l 1,4,-1
 EndSplineSet
 Validated: 1
+Kerns2: 183 -320 "kern"  134 -288 "kern"  133 -288 "kern"  132 -288 "kern"  131 -288 "kern"  129 -288 "kern"  128 -288 "kern"  127 -256 "kern"  113 -288 "kern"  108 -288 "kern"  100 -256 "kern"  99 -416 "kern"  45 -352 "kern"  36 -288 "kern"  31 -288 "kern"  23 -256 "kern"  18 -352 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: plusminus
 Encoding: 177 177 113
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6333,12 +6300,13 @@ SplineSet
  192 128 l 1,4,-1
 EndSplineSet
 Validated: 1
+Kerns2: 202 -288 "kern"  201 -288 "kern"  198 -288 "kern"  197 -288 "kern"  121 -288 "kern"  116 -416 "kern"  112 -288 "kern"  111 -288 "kern"  67 -288 "kern"  65 -288 "kern"  55 -288 "kern"  10 -288 "kern"  5 -288 "kern" 
 EndChar
 
 StartChar: uni00B2
 Encoding: 178 178 114
-Width: 320
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6371,12 +6339,13 @@ SplineSet
  0 448 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 183 -320 "kern"  134 -320 "kern"  133 -320 "kern"  132 -320 "kern"  131 -320 "kern"  130 -288 "kern"  129 -320 "kern"  128 -320 "kern"  127 -320 "kern"  116 -288 "kern"  108 -256 "kern"  100 -320 "kern"  99 -256 "kern"  45 -416 "kern"  36 -320 "kern"  31 -256 "kern"  18 -384 "kern"  14 -352 "kern" 
 EndChar
 
 StartChar: uni00B3
 Encoding: 179 179 115
-Width: 256
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6413,36 +6382,37 @@ SplineSet
  32 448 l 1,8,-1
 EndSplineSet
 Validated: 5
+Kerns2: 183 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  127 -256 "kern"  100 -256 "kern"  45 -352 "kern"  36 -256 "kern"  18 -320 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: acute
 Encoding: 180 180 116
-Width: 384
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-128 576 m 1,0,-1
- 128 608 l 1,1,-1
- 160 608 l 1,2,-1
- 160 640 l 1,3,-1
- 192 640 l 1,4,-1
- 192 672 l 1,5,-1
- 288 672 l 1,6,-1
- 288 640 l 1,7,-1
- 256 640 l 1,8,-1
- 256 608 l 1,9,-1
- 224 608 l 1,10,-1
- 224 576 l 1,11,-1
- 128 576 l 1,0,-1
+0 576 m 1,0,-1
+ 0 608 l 1,1,-1
+ 32 608 l 1,2,-1
+ 32 640 l 1,3,-1
+ 64 640 l 1,4,-1
+ 64 672 l 1,5,-1
+ 160 672 l 1,6,-1
+ 160 640 l 1,7,-1
+ 128 640 l 1,8,-1
+ 128 608 l 1,9,-1
+ 96 608 l 1,10,-1
+ 96 576 l 1,11,-1
+ 0 576 l 1,0,-1
 EndSplineSet
-Validated: 1
+Kerns2: 207 -320 "kern"  189 -256 "kern"  186 -256 "kern"  179 -288 "kern"  169 -288 "kern"  161 -288 "kern"  134 -352 "kern"  133 -320 "kern"  132 -256 "kern"  129 -352 "kern"  128 -352 "kern"  127 -256 "kern"  113 -288 "kern"  108 -384 "kern"  100 -288 "kern"  71 -416 "kern"  45 -352 "kern"  36 -352 "kern"  35 -256 "kern"  31 -384 "kern"  23 -352 "kern"  18 -416 "kern"  6 -320 "kern" 
 EndChar
 
 StartChar: uni00B5
 Encoding: 181 181 117
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6473,12 +6443,13 @@ SplineSet
  0 -192 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -320 "kern" 
 EndChar
 
 StartChar: paragraph
 Encoding: 182 182 118
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6511,8 +6482,8 @@ EndChar
 
 StartChar: periodcentered
 Encoding: 183 183 119
-Width: 192
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6523,12 +6494,13 @@ SplineSet
  0 448 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 183 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  130 -256 "kern"  129 -256 "kern"  128 -256 "kern"  127 -256 "kern"  100 -256 "kern"  45 -352 "kern"  36 -256 "kern"  18 -320 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: cedilla
 Encoding: 184 184 120
-Width: 288
-Flags: W
+Width: 192
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6553,12 +6525,13 @@ SplineSet
  32 -192 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 209 -352 "kern"  207 -448 "kern"  194 -352 "kern"  192 -256 "kern"  182 -256 "kern"  181 -256 "kern"  180 -256 "kern"  179 -256 "kern"  178 -256 "kern"  176 -256 "kern"  171 -256 "kern"  170 -256 "kern"  169 -256 "kern"  168 -256 "kern"  166 -256 "kern"  165 -256 "kern"  164 -256 "kern"  163 -256 "kern"  162 -256 "kern"  161 -256 "kern"  160 -256 "kern"  157 -352 "kern"  156 -256 "kern"  155 -256 "kern"  154 -256 "kern"  153 -256 "kern"  150 -352 "kern"  149 -352 "kern"  148 -352 "kern"  147 -352 "kern"  146 -352 "kern"  135 -288 "kern"  127 -256 "kern"  118 -288 "kern"  110 -320 "kern"  109 -768 "kern"  106 -320 "kern"  102 -352 "kern"  90 -256 "kern"  89 -256 "kern"  84 -256 "kern"  82 -256 "kern"  72 -256 "kern"  71 -256 "kern"  70 -256 "kern"  68 -256 "kern"  63 -448 "kern"  60 -352 "kern"  58 -288 "kern"  57 -352 "kern"  56 -256 "kern"  55 -352 "kern"  54 -256 "kern"  52 -352 "kern"  50 -352 "kern"  42 -352 "kern"  38 -352 "kern"  34 -320 "kern"  27 -256 "kern"  26 -256 "kern"  25 -256 "kern"  24 -256 "kern"  23 -416 "kern"  19 -256 "kern"  14 -416 "kern"  11 -256 "kern"  9 -256 "kern"  7 -256 "kern" 
 EndChar
 
 StartChar: uni00B9
 Encoding: 185 185 121
-Width: 224
-Flags: W
+Width: 128
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6578,12 +6551,13 @@ SplineSet
  64 480 l 1,4,-1
 EndSplineSet
 Validated: 5
+Kerns2: 183 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  129 -256 "kern"  128 -256 "kern"  127 -256 "kern"  113 -288 "kern"  100 -256 "kern"  99 -352 "kern"  45 -352 "kern"  36 -256 "kern"  18 -320 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: ordmasculine
 Encoding: 186 186 122
-Width: 384
-Flags: W
+Width: 288
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6628,12 +6602,13 @@ SplineSet
  64 224 l 1,16,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: guillemotright
 Encoding: 187 187 123
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6761,12 +6736,13 @@ SplineSet
  224 64 l 1,60,-1
 EndSplineSet
 Validated: 1
+Kerns2: 208 -288 "kern"  206 -256 "kern"  203 -256 "kern"  199 -256 "kern"  121 -288 "kern"  116 -448 "kern"  112 -288 "kern"  67 -352 "kern"  65 -256 "kern"  63 -256 "kern"  59 -256 "kern"  55 -288 "kern"  26 -288 "kern"  17 -256 "kern"  15 -256 "kern" 
 EndChar
 
 StartChar: onequarter
 Encoding: 188 188 124
-Width: 736
-Flags: W
+Width: 640
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6886,12 +6862,13 @@ SplineSet
  0 0 l 1,38,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: onehalf
 Encoding: 189 189 125
-Width: 768
-Flags: W
+Width: 672
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7016,12 +6993,13 @@ SplineSet
  0 0 l 1,44,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: threequarters
 Encoding: 190 190 126
-Width: 736
-Flags: W
+Width: 640
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7159,12 +7137,13 @@ SplineSet
  0 0 l 1,56,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: questiondown
 Encoding: 191 191 127
-Width: 544
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7224,12 +7203,13 @@ SplineSet
  160 544 l 1,48,-1
 EndSplineSet
 Validated: 1
+Kerns2: 205 -288 "kern"  202 -288 "kern"  201 -288 "kern"  200 -288 "kern"  198 -288 "kern"  197 -288 "kern"  196 -288 "kern"  194 -288 "kern"  157 -288 "kern"  121 -288 "kern"  119 -288 "kern"  118 -288 "kern"  116 -416 "kern"  115 -288 "kern"  114 -288 "kern"  112 -288 "kern"  111 -288 "kern"  109 -288 "kern"  67 -288 "kern"  65 -288 "kern"  63 -288 "kern"  60 -288 "kern"  55 -288 "kern"  34 -288 "kern"  13 -288 "kern"  10 -288 "kern"  5 -288 "kern" 
 EndChar
 
 StartChar: Agrave
 Encoding: 192 192 128
-Width: 672
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7314,12 +7294,13 @@ SplineSet
  256 704 l 1,64,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -256 "kern"  194 -288 "kern"  157 -288 "kern"  121 -288 "kern"  116 -416 "kern"  112 -256 "kern"  111 -288 "kern"  105 -320 "kern"  67 -288 "kern"  65 -256 "kern"  63 -320 "kern"  60 -288 "kern"  57 -256 "kern"  55 -256 "kern"  13 -256 "kern" 
 EndChar
 
 StartChar: Aacute
 Encoding: 193 193 129
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7404,12 +7385,13 @@ SplineSet
  256 704 l 1,64,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -288 "kern"  202 -256 "kern"  201 -256 "kern"  200 -256 "kern"  198 -256 "kern"  197 -256 "kern"  194 -320 "kern"  157 -320 "kern"  121 -320 "kern"  119 -256 "kern"  116 -448 "kern"  115 -256 "kern"  114 -256 "kern"  112 -288 "kern"  111 -320 "kern"  105 -288 "kern"  67 -320 "kern"  65 -288 "kern"  63 -320 "kern"  60 -320 "kern"  57 -288 "kern"  55 -288 "kern"  13 -288 "kern"  10 -256 "kern"  5 -256 "kern" 
 EndChar
 
 StartChar: Acircumflex
 Encoding: 194 194 130
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7514,12 +7496,13 @@ SplineSet
  128 640 l 1,64,-1
 EndSplineSet
 Validated: 1
+Kerns2: 119 -256 "kern"  116 -352 "kern"  65 -288 "kern" 
 EndChar
 
 StartChar: Atilde
 Encoding: 195 195 131
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7624,12 +7607,13 @@ SplineSet
  320 672 l 1,64,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -288 "kern"  202 -256 "kern"  201 -256 "kern"  200 -256 "kern"  198 -256 "kern"  197 -256 "kern"  194 -288 "kern"  157 -288 "kern"  121 -320 "kern"  119 -256 "kern"  116 -448 "kern"  115 -256 "kern"  114 -256 "kern"  112 -288 "kern"  111 -256 "kern"  67 -288 "kern"  65 -288 "kern"  60 -288 "kern"  57 -288 "kern"  55 -288 "kern"  13 -288 "kern"  10 -256 "kern"  5 -256 "kern" 
 EndChar
 
 StartChar: Adieresis
 Encoding: 196 196 132
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7711,12 +7695,13 @@ SplineSet
  352 704 l 1,68,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -288 "kern"  202 -256 "kern"  201 -256 "kern"  200 -256 "kern"  198 -256 "kern"  197 -256 "kern"  194 -320 "kern"  157 -320 "kern"  121 -320 "kern"  119 -256 "kern"  116 -448 "kern"  115 -256 "kern"  114 -256 "kern"  112 -288 "kern"  111 -256 "kern"  105 -256 "kern"  67 -320 "kern"  65 -288 "kern"  63 -256 "kern"  60 -320 "kern"  57 -288 "kern"  55 -288 "kern"  13 -288 "kern"  10 -256 "kern"  5 -256 "kern" 
 EndChar
 
 StartChar: Aring
 Encoding: 197 197 133
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7809,12 +7794,13 @@ SplineSet
  0 0 l 1,28,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -288 "kern"  202 -256 "kern"  201 -256 "kern"  200 -256 "kern"  198 -256 "kern"  197 -256 "kern"  194 -320 "kern"  157 -320 "kern"  121 -320 "kern"  119 -256 "kern"  116 -448 "kern"  115 -256 "kern"  114 -256 "kern"  112 -288 "kern"  111 -320 "kern"  105 -320 "kern"  67 -320 "kern"  65 -288 "kern"  63 -320 "kern"  60 -320 "kern"  57 -288 "kern"  55 -288 "kern"  13 -288 "kern"  10 -256 "kern"  5 -256 "kern" 
 EndChar
 
 StartChar: AE
 Encoding: 198 198 134
-Width: 1120
-Flags: W
+Width: 896
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7886,12 +7872,13 @@ SplineSet
  0 0 l 1,16,-1
 EndSplineSet
 Validated: 1
+Kerns2: 212 -288 "kern"  211 -288 "kern"  210 -448 "kern"  209 -256 "kern"  207 -352 "kern"  205 -352 "kern"  204 -320 "kern"  202 -448 "kern"  201 -448 "kern"  200 -448 "kern"  198 -448 "kern"  197 -448 "kern"  196 -352 "kern"  194 -448 "kern"  191 -320 "kern"  189 -320 "kern"  183 -352 "kern"  157 -448 "kern"  150 -256 "kern"  149 -256 "kern"  148 -256 "kern"  147 -256 "kern"  146 -256 "kern"  135 -256 "kern"  121 -448 "kern"  120 -256 "kern"  119 -448 "kern"  118 -352 "kern"  116 -576 "kern"  115 -448 "kern"  114 -448 "kern"  112 -448 "kern"  111 -448 "kern"  110 -256 "kern"  109 -352 "kern"  108 -352 "kern"  106 -256 "kern"  104 -256 "kern"  102 -352 "kern"  97 -352 "kern"  96 -288 "kern"  94 -288 "kern"  92 -320 "kern"  90 -320 "kern"  89 -320 "kern"  87 -288 "kern"  73 -288 "kern"  67 -448 "kern"  65 -448 "kern"  63 -448 "kern"  60 -448 "kern"  58 -352 "kern"  57 -416 "kern"  55 -448 "kern"  52 -256 "kern"  50 -256 "kern"  42 -256 "kern"  38 -256 "kern"  34 -352 "kern"  31 -352 "kern"  26 -352 "kern"  25 -256 "kern"  23 -352 "kern"  21 -256 "kern"  20 -320 "kern"  19 -256 "kern"  16 -352 "kern"  14 -352 "kern"  13 -448 "kern"  11 -256 "kern"  10 -448 "kern"  5 -448 "kern" 
 EndChar
 
 StartChar: Ccedilla
 Encoding: 199 199 135
-Width: 672
-Flags: W
+Width: 576
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7986,12 +7973,13 @@ SplineSet
  224 -192 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 196 -544 "kern"  116 -288 "kern"  109 -544 "kern" 
 EndChar
 
 StartChar: Egrave
 Encoding: 200 200 136
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8027,8 +8015,8 @@ EndChar
 
 StartChar: Eacute
 Encoding: 201 201 137
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8064,8 +8052,8 @@ EndChar
 
 StartChar: Ecircumflex
 Encoding: 202 202 138
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8113,8 +8101,8 @@ EndChar
 
 StartChar: Edieresis
 Encoding: 203 203 139
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8147,206 +8135,205 @@ EndChar
 
 StartChar: Igrave
 Encoding: 204 204 140
-Width: 192
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1,0,-1
- 0 640 l 1,1,-1
- 96 640 l 1,2,-1
- 96 0 l 1,3,-1
- 0 0 l 1,0,-1
-0 704 m 1,4,-1
- 0 736 l 1,5,-1
- -32 736 l 1,6,-1
- -32 768 l 1,7,-1
- -64 768 l 1,8,-1
- -64 800 l 1,9,-1
- 32 800 l 1,10,-1
- 32 768 l 1,11,-1
- 64 768 l 1,12,-1
- 64 736 l 1,13,-1
- 96 736 l 1,14,-1
- 96 704 l 1,15,-1
- 0 704 l 1,4,-1
+64 0 m 1,0,-1
+ 64 640 l 1,1,-1
+ 160 640 l 1,2,-1
+ 160 0 l 1,3,-1
+ 64 0 l 1,0,-1
+64 704 m 1,4,-1
+ 64 736 l 1,5,-1
+ 32 736 l 1,6,-1
+ 32 768 l 1,7,-1
+ 0 768 l 1,8,-1
+ 0 800 l 1,9,-1
+ 96 800 l 1,10,-1
+ 96 768 l 1,11,-1
+ 128 768 l 1,12,-1
+ 128 736 l 1,13,-1
+ 160 736 l 1,14,-1
+ 160 704 l 1,15,-1
+ 64 704 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Iacute
 Encoding: 205 205 141
-Width: 256
-Flags: W
+Width: 161
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1,0,-1
- 0 640 l 1,1,-1
- 96 640 l 1,2,-1
- 96 0 l 1,3,-1
- 0 0 l 1,0,-1
-0 704 m 1,4,-1
- 0 736 l 1,5,-1
- 32 736 l 1,6,-1
- 32 768 l 1,7,-1
- 64 768 l 1,8,-1
- 64 800 l 1,9,-1
- 160 800 l 1,10,-1
- 160 768 l 1,11,-1
- 128 768 l 1,12,-1
- 128 736 l 1,13,-1
- 96 736 l 1,14,-1
- 96 704 l 1,15,-1
- 0 704 l 1,4,-1
+1 0 m 1,0,-1
+ 1 640 l 1,1,-1
+ 97 640 l 1,2,-1
+ 97 0 l 1,3,-1
+ 1 0 l 1,0,-1
+1 704 m 1,4,-1
+ 1 736 l 1,5,-1
+ 33 736 l 1,6,-1
+ 33 768 l 1,7,-1
+ 65 768 l 1,8,-1
+ 65 800 l 1,9,-1
+ 161 800 l 1,10,-1
+ 161 768 l 1,11,-1
+ 129 768 l 1,12,-1
+ 129 736 l 1,13,-1
+ 97 736 l 1,14,-1
+ 97 704 l 1,15,-1
+ 1 704 l 1,4,-1
 EndSplineSet
-Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 142
-Width: 320
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1,0,-1
- 0 640 l 1,1,-1
- 96 640 l 1,2,-1
- 96 0 l 1,3,-1
- 0 0 l 1,0,-1
--128 640 m 1,4,-1
- -128 672 l 1,5,-1
- -96 672 l 1,6,-1
- -96 704 l 1,7,-1
- -64 704 l 1,8,-1
- -64 736 l 1,9,-1
- -32 736 l 1,10,-1
- -32 768 l 1,11,-1
- 0 768 l 1,12,-1
- 0 800 l 1,13,-1
- 96 800 l 1,14,-1
- 96 768 l 1,15,-1
- 128 768 l 1,16,-1
- 128 736 l 1,17,-1
- 160 736 l 1,18,-1
- 160 704 l 1,19,-1
- 192 704 l 1,20,-1
- 192 672 l 1,21,-1
- 224 672 l 1,22,-1
- 224 640 l 1,23,-1
- 160 640 l 1,24,-1
- 160 672 l 1,25,-1
- 96 672 l 1,26,-1
- 96 704 l 1,27,-1
- 64 704 l 1,28,-1
- 64 736 l 1,29,-1
- 32 736 l 1,30,-1
- 32 704 l 1,31,-1
- 0 704 l 1,32,-1
- 0 672 l 1,33,-1
- -64 672 l 1,34,-1
- -64 640 l 1,35,-1
- -128 640 l 1,4,-1
+128 0 m 1,0,-1
+ 128 640 l 1,1,-1
+ 224 640 l 1,2,-1
+ 224 0 l 1,3,-1
+ 128 0 l 1,0,-1
+0 640 m 1,4,-1
+ 0 672 l 1,5,-1
+ 32 672 l 1,6,-1
+ 32 704 l 1,7,-1
+ 64 704 l 1,8,-1
+ 64 736 l 1,9,-1
+ 96 736 l 1,10,-1
+ 96 768 l 1,11,-1
+ 128 768 l 1,12,-1
+ 128 800 l 1,13,-1
+ 224 800 l 1,14,-1
+ 224 768 l 1,15,-1
+ 256 768 l 1,16,-1
+ 256 736 l 1,17,-1
+ 288 736 l 1,18,-1
+ 288 704 l 1,19,-1
+ 320 704 l 1,20,-1
+ 320 672 l 1,21,-1
+ 352 672 l 1,22,-1
+ 352 640 l 1,23,-1
+ 288 640 l 1,24,-1
+ 288 672 l 1,25,-1
+ 224 672 l 1,26,-1
+ 224 704 l 1,27,-1
+ 192 704 l 1,28,-1
+ 192 736 l 1,29,-1
+ 160 736 l 1,30,-1
+ 160 704 l 1,31,-1
+ 128 704 l 1,32,-1
+ 128 672 l 1,33,-1
+ 64 672 l 1,34,-1
+ 64 640 l 1,35,-1
+ 0 640 l 1,4,-1
 EndSplineSet
-Validated: 1
+Kerns2: 120 -256 "kern" 
 EndChar
 
 StartChar: Idieresis
 Encoding: 207 207 143
 Width: 288
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1,0,-1
- 0 640 l 1,1,-1
- 96 640 l 1,2,-1
- 96 0 l 1,3,-1
- 0 0 l 1,0,-1
--96 704 m 1,4,-1
- -96 800 l 1,5,-1
- 0 800 l 1,6,-1
- 0 704 l 1,7,-1
- -96 704 l 1,4,-1
-96 704 m 1,8,-1
- 96 800 l 1,9,-1
- 192 800 l 1,10,-1
- 192 704 l 1,11,-1
- 96 704 l 1,8,-1
+96 0 m 1,0,-1
+ 96 640 l 1,1,-1
+ 192 640 l 1,2,-1
+ 192 0 l 1,3,-1
+ 96 0 l 1,0,-1
+0 704 m 1,4,-1
+ 0 800 l 1,5,-1
+ 96 800 l 1,6,-1
+ 96 704 l 1,7,-1
+ 0 704 l 1,4,-1
+192 704 m 1,8,-1
+ 192 800 l 1,9,-1
+ 288 800 l 1,10,-1
+ 288 704 l 1,11,-1
+ 192 704 l 1,8,-1
 EndSplineSet
-Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: Eth
 Encoding: 208 208 144
 Width: 576
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-256 96 m 1,0,-1
- 256 128 l 1,1,-1
- 320 128 l 1,2,-1
- 320 160 l 1,3,-1
- 352 160 l 1,4,-1
- 352 192 l 1,5,-1
- 384 192 l 1,6,-1
- 384 256 l 1,7,-1
- 416 256 l 1,8,-1
- 416 384 l 1,9,-1
- 384 384 l 1,10,-1
- 384 448 l 1,11,-1
- 352 448 l 1,12,-1
- 352 480 l 1,13,-1
- 320 480 l 1,14,-1
- 320 512 l 1,15,-1
- 256 512 l 1,16,-1
- 256 544 l 1,17,-1
- 96 544 l 1,18,-1
- 96 352 l 1,19,-1
- 224 352 l 1,20,-1
- 224 288 l 1,21,-1
- 96 288 l 1,22,-1
- 96 96 l 1,23,-1
- 256 96 l 1,0,-1
-0 0 m 1,24,-1
- 0 288 l 1,25,-1
- -64 288 l 1,26,-1
- -64 352 l 1,27,-1
- 0 352 l 1,28,-1
- 0 640 l 1,29,-1
- 288 640 l 1,30,-1
- 288 608 l 1,31,-1
- 384 608 l 1,32,-1
- 384 576 l 1,33,-1
- 416 576 l 1,34,-1
- 416 544 l 1,35,-1
- 448 544 l 1,36,-1
- 448 512 l 1,37,-1
- 480 512 l 1,38,-1
- 480 448 l 1,39,-1
- 512 448 l 1,40,-1
- 512 192 l 1,41,-1
- 480 192 l 1,42,-1
- 480 128 l 1,43,-1
- 448 128 l 1,44,-1
- 448 96 l 1,45,-1
- 416 96 l 1,46,-1
- 416 64 l 1,47,-1
- 384 64 l 1,48,-1
- 384 32 l 1,49,-1
- 288 32 l 1,50,-1
- 288 0 l 1,51,-1
- 0 0 l 1,24,-1
+320 96 m 1,0,-1
+ 320 128 l 1,1,-1
+ 384 128 l 1,2,-1
+ 384 160 l 1,3,-1
+ 416 160 l 1,4,-1
+ 416 192 l 1,5,-1
+ 448 192 l 1,6,-1
+ 448 256 l 1,7,-1
+ 480 256 l 1,8,-1
+ 480 384 l 1,9,-1
+ 448 384 l 1,10,-1
+ 448 448 l 1,11,-1
+ 416 448 l 1,12,-1
+ 416 480 l 1,13,-1
+ 384 480 l 1,14,-1
+ 384 512 l 1,15,-1
+ 320 512 l 1,16,-1
+ 320 544 l 1,17,-1
+ 160 544 l 1,18,-1
+ 160 352 l 1,19,-1
+ 288 352 l 1,20,-1
+ 288 288 l 1,21,-1
+ 160 288 l 1,22,-1
+ 160 96 l 1,23,-1
+ 320 96 l 1,0,-1
+64 0 m 1,24,-1
+ 64 288 l 1,25,-1
+ 0 288 l 1,26,-1
+ 0 352 l 1,27,-1
+ 64 352 l 1,28,-1
+ 64 640 l 1,29,-1
+ 352 640 l 1,30,-1
+ 352 608 l 1,31,-1
+ 448 608 l 1,32,-1
+ 448 576 l 1,33,-1
+ 480 576 l 1,34,-1
+ 480 544 l 1,35,-1
+ 512 544 l 1,36,-1
+ 512 512 l 1,37,-1
+ 544 512 l 1,38,-1
+ 544 448 l 1,39,-1
+ 576 448 l 1,40,-1
+ 576 192 l 1,41,-1
+ 544 192 l 1,42,-1
+ 544 128 l 1,43,-1
+ 512 128 l 1,44,-1
+ 512 96 l 1,45,-1
+ 480 96 l 1,46,-1
+ 480 64 l 1,47,-1
+ 448 64 l 1,48,-1
+ 448 32 l 1,49,-1
+ 352 32 l 1,50,-1
+ 352 0 l 1,51,-1
+ 64 0 l 1,24,-1
 EndSplineSet
-Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: Ntilde
 Encoding: 209 209 145
-Width: 608
-Flags: W
+Width: 512
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8430,8 +8417,8 @@ EndChar
 
 StartChar: Ograve
 Encoding: 210 210 146
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8532,12 +8519,13 @@ SplineSet
  256 704 l 1,80,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern"  116 -288 "kern"  105 -352 "kern" 
 EndChar
 
 StartChar: Oacute
 Encoding: 211 211 147
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8638,12 +8626,13 @@ SplineSet
  256 704 l 1,80,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern"  116 -288 "kern"  105 -288 "kern" 
 EndChar
 
 StartChar: Ocircumflex
 Encoding: 212 212 148
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8764,12 +8753,13 @@ SplineSet
  128 640 l 1,80,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern"  116 -288 "kern" 
 EndChar
 
 StartChar: Otilde
 Encoding: 213 213 149
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8890,12 +8880,13 @@ SplineSet
  320 672 l 1,80,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern"  116 -288 "kern" 
 EndChar
 
 StartChar: Odieresis
 Encoding: 214 214 150
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8993,12 +8984,13 @@ SplineSet
  352 704 l 1,84,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern"  116 -288 "kern"  105 -256 "kern" 
 EndChar
 
 StartChar: multiply
 Encoding: 215 215 151
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9081,12 +9073,13 @@ SplineSet
  0 64 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -320 "kern" 
 EndChar
 
 StartChar: Oslash
 Encoding: 216 216 152
-Width: 736
-Flags: W
+Width: 640
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9213,12 +9206,13 @@ SplineSet
  0 0 l 1,64,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -288 "kern"  66 -256 "kern" 
 EndChar
 
 StartChar: Ugrave
 Encoding: 217 217 153
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9266,12 +9260,13 @@ SplineSet
  192 704 l 1,28,-1
 EndSplineSet
 Validated: 1
+Kerns2: 105 -288 "kern" 
 EndChar
 
 StartChar: Uacute
 Encoding: 218 218 154
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9323,8 +9318,8 @@ EndChar
 
 StartChar: Ucircumflex
 Encoding: 219 219 155
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9396,8 +9391,8 @@ EndChar
 
 StartChar: Udieresis
 Encoding: 220 220 156
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9436,8 +9431,8 @@ EndChar
 
 StartChar: Yacute
 Encoding: 221 221 157
-Width: 640
-Flags: W
+Width: 544
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9509,12 +9504,13 @@ SplineSet
  224 704 l 1,52,-1
 EndSplineSet
 Validated: 1
+Kerns2: 206 -320 "kern"  203 -320 "kern"  199 -320 "kern"  183 -256 "kern"  134 -320 "kern"  133 -320 "kern"  132 -320 "kern"  131 -320 "kern"  129 -320 "kern"  128 -320 "kern"  127 -256 "kern"  120 -352 "kern"  105 -256 "kern"  66 -320 "kern"  45 -288 "kern"  36 -320 "kern"  18 -320 "kern"  17 -320 "kern"  15 -320 "kern" 
 EndChar
 
 StartChar: Thorn
 Encoding: 222 222 158
-Width: 544
-Flags: W
+Width: 448
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9550,12 +9546,13 @@ SplineSet
  0 0 l 1,8,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -480 "kern"  116 -576 "kern"  111 -448 "kern"  67 -448 "kern"  66 -448 "kern"  55 -320 "kern"  26 -256 "kern" 
 EndChar
 
 StartChar: germandbls
 Encoding: 223 223 159
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9612,12 +9609,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -256 "kern"  55 -320 "kern" 
 EndChar
 
 StartChar: agrave
 Encoding: 224 224 160
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9682,12 +9680,13 @@ SplineSet
  160 544 l 1,44,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -384 "kern"  111 -256 "kern"  67 -256 "kern"  55 -256 "kern" 
 EndChar
 
 StartChar: aacute
 Encoding: 225 225 161
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9752,12 +9751,13 @@ SplineSet
  160 544 l 1,44,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -320 "kern" 
 EndChar
 
 StartChar: acircumflex
 Encoding: 226 226 162
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9834,12 +9834,13 @@ SplineSet
  64 512 l 1,44,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: atilde
 Encoding: 227 227 163
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9924,12 +9925,13 @@ SplineSet
  224 512 l 1,44,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern"  105 -320 "kern" 
 EndChar
 
 StartChar: adieresis
 Encoding: 228 228 164
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9991,12 +9993,13 @@ SplineSet
  256 544 l 1,48,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: aring
 Encoding: 229 229 165
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10071,12 +10074,13 @@ SplineSet
  128 0 l 1,28,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -352 "kern" 
 EndChar
 
 StartChar: ae
 Encoding: 230 230 166
-Width: 800
-Flags: W
+Width: 704
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10175,12 +10179,13 @@ SplineSet
  128 0 l 1,18,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -320 "kern" 
 EndChar
 
 StartChar: ccedilla
 Encoding: 231 231 167
-Width: 448
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10243,12 +10248,13 @@ SplineSet
  128 -192 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -320 "kern" 
 EndChar
 
 StartChar: egrave
 Encoding: 232 232 168
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10315,12 +10321,13 @@ SplineSet
  160 544 l 1,46,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -352 "kern" 
 EndChar
 
 StartChar: eacute
 Encoding: 233 233 169
-Width: 484
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10387,12 +10394,13 @@ SplineSet
  160 544 l 1,46,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -259 "kern" 
 EndChar
 
 StartChar: ecircumflex
 Encoding: 234 234 170
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10471,12 +10479,13 @@ SplineSet
  32 512 l 1,46,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: edieresis
 Encoding: 235 235 171
-Width: 484
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10540,41 +10549,41 @@ SplineSet
  224 544 l 1,50,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -292 "kern" 
 EndChar
 
 StartChar: igrave
 Encoding: 236 236 172
-Width: 192
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1,0,-1
- 0 480 l 1,1,-1
- 96 480 l 1,2,-1
- 96 0 l 1,3,-1
- 0 0 l 1,0,-1
-0 544 m 1,4,-1
- 0 576 l 1,5,-1
- -32 576 l 1,6,-1
- -32 608 l 1,7,-1
- -64 608 l 1,8,-1
- -64 640 l 1,9,-1
- 32 640 l 1,10,-1
- 32 608 l 1,11,-1
- 64 608 l 1,12,-1
- 64 576 l 1,13,-1
- 96 576 l 1,14,-1
- 96 544 l 1,15,-1
- 0 544 l 1,4,-1
+64 0 m 1,0,-1
+ 64 480 l 1,1,-1
+ 160 480 l 1,2,-1
+ 160 0 l 1,3,-1
+ 64 0 l 1,0,-1
+64 544 m 1,4,-1
+ 64 576 l 1,5,-1
+ 32 576 l 1,6,-1
+ 32 608 l 1,7,-1
+ 0 608 l 1,8,-1
+ 0 640 l 1,9,-1
+ 96 640 l 1,10,-1
+ 96 608 l 1,11,-1
+ 128 608 l 1,12,-1
+ 128 576 l 1,13,-1
+ 160 576 l 1,14,-1
+ 160 544 l 1,15,-1
+ 64 544 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: iacute
 Encoding: 237 237 173
-Width: 256
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10603,78 +10612,76 @@ EndChar
 StartChar: icircumflex
 Encoding: 238 238 174
 Width: 288
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1,0,-1
- 0 480 l 1,1,-1
- 96 480 l 1,2,-1
- 96 0 l 1,3,-1
- 0 0 l 1,0,-1
--96 512 m 1,4,-1
- -96 544 l 1,5,-1
- -64 544 l 1,6,-1
- -64 576 l 1,7,-1
- -32 576 l 1,8,-1
- -32 608 l 1,9,-1
- 0 608 l 1,10,-1
- 0 640 l 1,11,-1
- 32 640 l 1,12,-1
- 32 672 l 1,13,-1
- 64 672 l 1,14,-1
- 64 640 l 1,15,-1
- 96 640 l 1,16,-1
- 96 608 l 1,17,-1
- 128 608 l 1,18,-1
- 128 576 l 1,19,-1
- 160 576 l 1,20,-1
- 160 544 l 1,21,-1
- 192 544 l 1,22,-1
- 192 512 l 1,23,-1
- 128 512 l 1,24,-1
- 128 544 l 1,25,-1
- 64 544 l 1,26,-1
- 64 576 l 1,27,-1
- 32 576 l 1,28,-1
- 32 544 l 1,29,-1
- -32 544 l 1,30,-1
- -32 512 l 1,31,-1
- -96 512 l 1,4,-1
+96 0 m 1,0,-1
+ 96 480 l 1,1,-1
+ 192 480 l 1,2,-1
+ 192 0 l 1,3,-1
+ 96 0 l 1,0,-1
+0 512 m 1,4,-1
+ 0 544 l 1,5,-1
+ 32 544 l 1,6,-1
+ 32 576 l 1,7,-1
+ 64 576 l 1,8,-1
+ 64 608 l 1,9,-1
+ 96 608 l 1,10,-1
+ 96 640 l 1,11,-1
+ 128 640 l 1,12,-1
+ 128 672 l 1,13,-1
+ 160 672 l 1,14,-1
+ 160 640 l 1,15,-1
+ 192 640 l 1,16,-1
+ 192 608 l 1,17,-1
+ 224 608 l 1,18,-1
+ 224 576 l 1,19,-1
+ 256 576 l 1,20,-1
+ 256 544 l 1,21,-1
+ 288 544 l 1,22,-1
+ 288 512 l 1,23,-1
+ 224 512 l 1,24,-1
+ 224 544 l 1,25,-1
+ 160 544 l 1,26,-1
+ 160 576 l 1,27,-1
+ 128 576 l 1,28,-1
+ 128 544 l 1,29,-1
+ 64 544 l 1,30,-1
+ 64 512 l 1,31,-1
+ 0 512 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: idieresis
 Encoding: 239 239 175
 Width: 288
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1,0,-1
- 0 480 l 1,1,-1
- 96 480 l 1,2,-1
- 96 0 l 1,3,-1
- 0 0 l 1,0,-1
--96 544 m 1,4,-1
- -96 640 l 1,5,-1
- 0 640 l 1,6,-1
- 0 544 l 1,7,-1
- -96 544 l 1,4,-1
-96 544 m 1,8,-1
- 96 640 l 1,9,-1
- 192 640 l 1,10,-1
- 192 544 l 1,11,-1
- 96 544 l 1,8,-1
+96 0 m 1,0,-1
+ 96 480 l 1,1,-1
+ 192 480 l 1,2,-1
+ 192 0 l 1,3,-1
+ 96 0 l 1,0,-1
+0 544 m 1,4,-1
+ 0 640 l 1,5,-1
+ 96 640 l 1,6,-1
+ 96 544 l 1,7,-1
+ 0 544 l 1,4,-1
+192 544 m 1,8,-1
+ 192 640 l 1,9,-1
+ 288 640 l 1,10,-1
+ 288 544 l 1,11,-1
+ 192 544 l 1,8,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eth
 Encoding: 240 240 176
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10746,12 +10753,13 @@ SplineSet
  128 0 l 1,12,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: ntilde
 Encoding: 241 241 177
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10817,12 +10825,13 @@ SplineSet
  224 512 l 1,26,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern"  105 -320 "kern" 
 EndChar
 
 StartChar: ograve
 Encoding: 242 242 178
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10883,12 +10892,13 @@ SplineSet
  160 544 l 1,40,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -352 "kern" 
 EndChar
 
 StartChar: oacute
 Encoding: 243 243 179
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10949,12 +10959,13 @@ SplineSet
  160 544 l 1,40,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: ocircumflex
 Encoding: 244 244 180
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11027,12 +11038,13 @@ SplineSet
  32 512 l 1,40,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: otilde
 Encoding: 245 245 181
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11113,12 +11125,13 @@ SplineSet
  224 512 l 1,40,-1
 EndSplineSet
 Validated: 1
+Kerns2: 105 -288 "kern" 
 EndChar
 
 StartChar: odieresis
 Encoding: 246 246 182
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11176,12 +11189,13 @@ SplineSet
  224 544 l 1,44,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: divide
 Encoding: 247 247 183
-Width: 480
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11202,98 +11216,99 @@ SplineSet
  160 352 l 1,8,-1
 EndSplineSet
 Validated: 1
+Kerns2: 121 -288 "kern"  112 -288 "kern"  55 -288 "kern"  13 -256 "kern" 
 EndChar
 
 StartChar: oslash
 Encoding: 248 248 184
-Width: 544
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-256 96 m 1,0,-1
- 256 128 l 1,1,-1
- 288 128 l 1,2,-1
- 288 256 l 1,3,-1
- 256 256 l 1,4,-1
- 256 224 l 1,5,-1
- 224 224 l 1,6,-1
- 224 192 l 1,7,-1
- 192 192 l 1,8,-1
- 192 160 l 1,9,-1
- 160 160 l 1,10,-1
- 160 128 l 1,11,-1
- 128 128 l 1,12,-1
- 128 96 l 1,13,-1
- 256 96 l 1,0,-1
-128 160 m 1,14,-1
- 128 192 l 1,15,-1
- 160 192 l 1,16,-1
- 160 224 l 1,17,-1
- 192 224 l 1,18,-1
- 192 256 l 1,19,-1
- 224 256 l 1,20,-1
- 224 288 l 1,21,-1
- 256 288 l 1,22,-1
- 256 320 l 1,23,-1
- 288 320 l 1,24,-1
- 288 352 l 1,25,-1
- 256 352 l 1,26,-1
- 256 384 l 1,27,-1
- 128 384 l 1,28,-1
- 128 352 l 1,29,-1
- 96 352 l 1,30,-1
- 96 160 l 1,31,-1
- 128 160 l 1,14,-1
--32 -32 m 1,32,-1
- -32 32 l 1,33,-1
- 0 32 l 1,34,-1
- 0 64 l 1,35,-1
- 32 64 l 1,36,-1
- 32 128 l 1,37,-1
- 0 128 l 1,38,-1
- 0 352 l 1,39,-1
- 32 352 l 1,40,-1
- 32 416 l 1,41,-1
- 64 416 l 1,42,-1
- 64 448 l 1,43,-1
- 128 448 l 1,44,-1
- 128 480 l 1,45,-1
- 256 480 l 1,46,-1
- 256 448 l 1,47,-1
- 320 448 l 1,48,-1
- 320 416 l 1,49,-1
- 384 416 l 1,50,-1
- 384 448 l 1,51,-1
- 416 448 l 1,52,-1
- 416 480 l 1,53,-1
- 448 480 l 1,54,-1
- 448 416 l 1,55,-1
- 416 416 l 1,56,-1
- 416 384 l 1,57,-1
- 384 384 l 1,58,-1
- 384 128 l 1,59,-1
- 352 128 l 1,60,-1
- 352 64 l 1,61,-1
- 320 64 l 1,62,-1
- 320 32 l 1,63,-1
- 256 32 l 1,64,-1
- 256 0 l 1,65,-1
- 128 0 l 1,66,-1
- 128 32 l 1,67,-1
- 32 32 l 1,68,-1
- 32 0 l 1,69,-1
- 0 0 l 1,70,-1
- 0 -32 l 1,71,-1
- -32 -32 l 1,32,-1
+288 96 m 1,0,-1
+ 288 128 l 1,1,-1
+ 320 128 l 1,2,-1
+ 320 256 l 1,3,-1
+ 288 256 l 1,4,-1
+ 288 224 l 1,5,-1
+ 256 224 l 1,6,-1
+ 256 192 l 1,7,-1
+ 224 192 l 1,8,-1
+ 224 160 l 1,9,-1
+ 192 160 l 1,10,-1
+ 192 128 l 1,11,-1
+ 160 128 l 1,12,-1
+ 160 96 l 1,13,-1
+ 288 96 l 1,0,-1
+160 160 m 1,14,-1
+ 160 192 l 1,15,-1
+ 192 192 l 1,16,-1
+ 192 224 l 1,17,-1
+ 224 224 l 1,18,-1
+ 224 256 l 1,19,-1
+ 256 256 l 1,20,-1
+ 256 288 l 1,21,-1
+ 288 288 l 1,22,-1
+ 288 320 l 1,23,-1
+ 320 320 l 1,24,-1
+ 320 352 l 1,25,-1
+ 288 352 l 1,26,-1
+ 288 384 l 1,27,-1
+ 160 384 l 1,28,-1
+ 160 352 l 1,29,-1
+ 128 352 l 1,30,-1
+ 128 160 l 1,31,-1
+ 160 160 l 1,14,-1
+0 -32 m 1,32,-1
+ 0 32 l 1,33,-1
+ 32 32 l 1,34,-1
+ 32 64 l 1,35,-1
+ 64 64 l 1,36,-1
+ 64 128 l 1,37,-1
+ 32 128 l 1,38,-1
+ 32 352 l 1,39,-1
+ 64 352 l 1,40,-1
+ 64 416 l 1,41,-1
+ 96 416 l 1,42,-1
+ 96 448 l 1,43,-1
+ 160 448 l 1,44,-1
+ 160 480 l 1,45,-1
+ 288 480 l 1,46,-1
+ 288 448 l 1,47,-1
+ 352 448 l 1,48,-1
+ 352 416 l 1,49,-1
+ 416 416 l 1,50,-1
+ 416 448 l 1,51,-1
+ 448 448 l 1,52,-1
+ 448 480 l 1,53,-1
+ 480 480 l 1,54,-1
+ 480 416 l 1,55,-1
+ 448 416 l 1,56,-1
+ 448 384 l 1,57,-1
+ 416 384 l 1,58,-1
+ 416 128 l 1,59,-1
+ 384 128 l 1,60,-1
+ 384 64 l 1,61,-1
+ 352 64 l 1,62,-1
+ 352 32 l 1,63,-1
+ 288 32 l 1,64,-1
+ 288 0 l 1,65,-1
+ 160 0 l 1,66,-1
+ 160 32 l 1,67,-1
+ 64 32 l 1,68,-1
+ 64 0 l 1,69,-1
+ 32 0 l 1,70,-1
+ 32 -32 l 1,71,-1
+ 0 -32 l 1,32,-1
 EndSplineSet
-Validated: 1
+Kerns2: 120 -256 "kern"  55 -320 "kern"  26 -288 "kern" 
 EndChar
 
 StartChar: ugrave
 Encoding: 249 249 185
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11337,12 +11352,13 @@ SplineSet
  160 544 l 1,24,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -352 "kern" 
 EndChar
 
 StartChar: uacute
 Encoding: 250 250 186
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11386,12 +11402,13 @@ SplineSet
  128 544 l 1,24,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -320 "kern" 
 EndChar
 
 StartChar: ucircumflex
 Encoding: 251 251 187
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11447,12 +11464,13 @@ SplineSet
  32 512 l 1,24,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -256 "kern" 
 EndChar
 
 StartChar: udieresis
 Encoding: 252 252 188
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11493,12 +11511,13 @@ SplineSet
  224 544 l 1,28,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: yacute
 Encoding: 253 253 189
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11562,12 +11581,13 @@ SplineSet
  128 544 l 1,44,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern"  116 -320 "kern" 
 EndChar
 
 StartChar: thorn
 Encoding: 254 254 190
-Width: 448
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11599,12 +11619,13 @@ SplineSet
  0 0 l 1,8,-1
 EndSplineSet
 Validated: 1
+Kerns2: 202 -352 "kern"  201 -352 "kern"  200 -352 "kern"  198 -352 "kern"  197 -352 "kern"  121 -416 "kern"  120 -384 "kern"  119 -352 "kern"  115 -352 "kern"  114 -352 "kern"  112 -384 "kern"  66 -352 "kern"  65 -352 "kern"  55 -288 "kern"  34 -256 "kern"  13 -384 "kern"  10 -352 "kern"  5 -352 "kern" 
 EndChar
 
 StartChar: ydieresis
 Encoding: 255 255 191
-Width: 480
-Flags: W
+Width: 384
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11665,12 +11686,13 @@ SplineSet
  224 544 l 1,48,-1
 EndSplineSet
 Validated: 1
+Kerns2: 120 -256 "kern"  116 -288 "kern" 
 EndChar
 
 StartChar: oe
 Encoding: 339 339 192
-Width: 736
-Flags: W
+Width: 672
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11753,12 +11775,13 @@ SplineSet
  128 0 l 1,20,-1
 EndSplineSet
 Validated: 1
+Kerns2: 55 -288 "kern" 
 EndChar
 
 StartChar: scaron
 Encoding: 353 353 193
-Width: 416
-Flags: W
+Width: 320
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11856,8 +11879,8 @@ EndChar
 
 StartChar: Ydieresis
 Encoding: 376 376 194
-Width: 640
-Flags: W
+Width: 544
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11926,12 +11949,13 @@ SplineSet
  320 704 l 1,56,-1
 EndSplineSet
 Validated: 1
+Kerns2: 206 -320 "kern"  203 -320 "kern"  199 -320 "kern"  183 -256 "kern"  134 -320 "kern"  133 -320 "kern"  132 -320 "kern"  131 -320 "kern"  129 -320 "kern"  128 -320 "kern"  127 -256 "kern"  120 -352 "kern"  66 -320 "kern"  45 -288 "kern"  36 -320 "kern"  18 -320 "kern"  17 -320 "kern"  15 -320 "kern" 
 EndChar
 
 StartChar: uni1E9E
 Encoding: 7838 7838 195
-Width: 576
-Flags: W
+Width: 480
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11996,12 +12020,13 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -288 "kern" 
 EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 196
-Width: 704
-Flags: W
+Width: 608
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12012,12 +12037,13 @@ SplineSet
  0 320 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 208 -320 "kern"  61 -256 "kern"  55 -320 "kern"  45 -352 "kern"  26 -288 "kern"  22 -256 "kern"  18 -256 "kern" 
 EndChar
 
 StartChar: quoteleft
 Encoding: 8216 8216 197
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12034,12 +12060,13 @@ SplineSet
  0 480 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 113 -256 "kern"  99 -320 "kern"  45 -320 "kern"  18 -288 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: quoteright
 Encoding: 8217 8217 198
-Width: 160
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12056,12 +12083,13 @@ SplineSet
  0 480 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 183 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  113 -256 "kern"  99 -352 "kern"  45 -320 "kern"  36 -256 "kern"  18 -320 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 199
-Width: 192
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12080,12 +12108,13 @@ SplineSet
  0 -96 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -288 "kern"  194 -320 "kern"  183 -256 "kern"  157 -320 "kern"  118 -288 "kern"  109 -736 "kern"  108 -256 "kern"  102 -320 "kern"  63 -352 "kern"  60 -320 "kern"  57 -288 "kern"  55 -320 "kern"  34 -288 "kern"  31 -256 "kern"  23 -384 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: quotereversed
 Encoding: 8219 8219 200
-Width: 192
-Flags: W
+Width: 96
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12104,12 +12133,13 @@ SplineSet
  32 448 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 183 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  127 -256 "kern"  100 -256 "kern"  45 -352 "kern"  36 -256 "kern"  18 -320 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 201
-Width: 288
-Flags: W
+Width: 224
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12137,12 +12167,13 @@ SplineSet
  128 480 l 1,10,-1
 EndSplineSet
 Validated: 1
+Kerns2: 113 -256 "kern"  99 -320 "kern"  45 -320 "kern"  18 -288 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 202
-Width: 288
-Flags: W
+Width: 224
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12170,12 +12201,13 @@ SplineSet
  128 480 l 1,10,-1
 EndSplineSet
 Validated: 1
+Kerns2: 183 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  129 -256 "kern"  128 -256 "kern"  113 -256 "kern"  99 -352 "kern"  45 -320 "kern"  36 -256 "kern"  18 -320 "kern"  14 -256 "kern" 
 EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 203
-Width: 352
-Flags: W
+Width: 256
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12207,12 +12239,13 @@ SplineSet
  160 -96 l 1,12,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -288 "kern"  194 -320 "kern"  183 -256 "kern"  157 -320 "kern"  118 -288 "kern"  109 -736 "kern"  108 -256 "kern"  102 -320 "kern"  63 -352 "kern"  60 -320 "kern"  57 -288 "kern"  55 -320 "kern"  34 -288 "kern"  31 -256 "kern"  23 -384 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: dagger
 Encoding: 8224 8224 204
-Width: 352
-Flags: W
+Width: 256
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12231,12 +12264,13 @@ SplineSet
  96 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 116 -320 "kern" 
 EndChar
 
 StartChar: bullet
 Encoding: 8226 8226 205
-Width: 320
-Flags: W
+Width: 160
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12255,38 +12289,39 @@ SplineSet
  32 288 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 210 -288 "kern"  208 -352 "kern"  194 -256 "kern"  157 -256 "kern"  134 -256 "kern"  133 -256 "kern"  132 -256 "kern"  131 -256 "kern"  130 -256 "kern"  129 -256 "kern"  128 -256 "kern"  121 -256 "kern"  116 -288 "kern"  112 -256 "kern"  96 -256 "kern"  64 -288 "kern"  63 -256 "kern"  61 -320 "kern"  60 -256 "kern"  59 -288 "kern"  55 -384 "kern"  45 -416 "kern"  36 -256 "kern"  26 -352 "kern"  18 -320 "kern"  12 -256 "kern" 
 EndChar
 
 StartChar: ellipsis
 Encoding: 8230 8230 206
-Width: 448
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 448 m 1,0,-1
- 0 544 l 1,1,-1
- 96 544 l 1,2,-1
- 96 448 l 1,3,-1
- 0 448 l 1,0,-1
-128 448 m 1,4,-1
- 128 544 l 1,5,-1
- 224 544 l 1,6,-1
- 224 448 l 1,7,-1
- 128 448 l 1,4,-1
-256 448 m 1,8,-1
- 256 544 l 1,9,-1
- 352 544 l 1,10,-1
- 352 448 l 1,11,-1
- 256 448 l 1,8,-1
+0 0 m 1,0,-1
+ 0 96 l 1,1,-1
+ 96 96 l 1,2,-1
+ 96 0 l 1,3,-1
+ 0 0 l 1,0,-1
+128 0 m 1,4,-1
+ 128 96 l 1,5,-1
+ 224 96 l 1,6,-1
+ 224 0 l 1,7,-1
+ 128 0 l 1,4,-1
+256 0 m 1,8,-1
+ 256 96 l 1,9,-1
+ 352 96 l 1,10,-1
+ 352 0 l 1,11,-1
+ 256 0 l 1,8,-1
 EndSplineSet
-Validated: 1
+Kerns2: 207 -288 "kern"  194 -320 "kern"  183 -256 "kern"  157 -320 "kern"  118 -288 "kern"  109 -736 "kern"  108 -256 "kern"  102 -320 "kern"  63 -352 "kern"  60 -320 "kern"  57 -288 "kern"  55 -320 "kern"  34 -288 "kern"  31 -256 "kern"  23 -384 "kern"  14 -288 "kern" 
 EndChar
 
 StartChar: guilsinglleft
 Encoding: 8249 8249 207
-Width: 448
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12373,12 +12408,13 @@ SplineSet
  320 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 207 -320 "kern"  205 -288 "kern"  196 -320 "kern"  109 -288 "kern"  108 -288 "kern"  97 -256 "kern"  31 -288 "kern" 
 EndChar
 
 StartChar: guilsinglright
 Encoding: 8250 8250 208
-Width: 448
-Flags: W
+Width: 352
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12465,108 +12501,109 @@ SplineSet
  0 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Kerns2: 208 -320 "kern"  206 -288 "kern"  203 -288 "kern"  199 -288 "kern"  120 -416 "kern"  116 -384 "kern"  111 -288 "kern"  105 -384 "kern"  67 -288 "kern"  66 -384 "kern"  18 -256 "kern"  17 -288 "kern"  15 -288 "kern" 
 EndChar
 
 StartChar: Euro
 Encoding: 8364 8364 209
-Width: 672
-Flags: W
+Width: 640
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-224 0 m 1,0,-1
- 224 32 l 1,1,-1
- 128 32 l 1,2,-1
- 128 64 l 1,3,-1
- 96 64 l 1,4,-1
- 96 96 l 1,5,-1
- 64 96 l 1,6,-1
- 64 128 l 1,7,-1
- 32 128 l 1,8,-1
- 32 192 l 1,9,-1
- 0 192 l 1,10,-1
- 0 224 l 1,11,-1
- -64 224 l 1,12,-1
- -64 288 l 1,13,-1
- 0 288 l 1,14,-1
- 0 352 l 1,15,-1
- -64 352 l 1,16,-1
- -64 416 l 1,17,-1
- 0 416 l 1,18,-1
- 0 448 l 1,19,-1
- 32 448 l 1,20,-1
- 32 512 l 1,21,-1
- 64 512 l 1,22,-1
- 64 544 l 1,23,-1
- 96 544 l 1,24,-1
- 96 576 l 1,25,-1
- 128 576 l 1,26,-1
- 128 608 l 1,27,-1
- 224 608 l 1,28,-1
- 224 640 l 1,29,-1
- 384 640 l 1,30,-1
- 384 608 l 1,31,-1
- 480 608 l 1,32,-1
- 480 576 l 1,33,-1
- 512 576 l 1,34,-1
- 512 512 l 1,35,-1
- 544 512 l 1,36,-1
- 544 480 l 1,37,-1
- 576 480 l 1,38,-1
- 576 448 l 1,39,-1
- 448 448 l 1,40,-1
- 448 480 l 1,41,-1
- 416 480 l 1,42,-1
- 416 512 l 1,43,-1
- 352 512 l 1,44,-1
- 352 544 l 1,45,-1
- 256 544 l 1,46,-1
- 256 512 l 1,47,-1
- 192 512 l 1,48,-1
- 192 480 l 1,49,-1
- 160 480 l 1,50,-1
- 160 448 l 1,51,-1
- 128 448 l 1,52,-1
- 128 416 l 1,53,-1
- 384 416 l 1,54,-1
- 384 352 l 1,55,-1
- 96 352 l 1,56,-1
- 96 288 l 1,57,-1
- 384 288 l 1,58,-1
- 384 224 l 1,59,-1
- 128 224 l 1,60,-1
- 128 192 l 1,61,-1
- 160 192 l 1,62,-1
- 160 160 l 1,63,-1
- 192 160 l 1,64,-1
- 192 128 l 1,65,-1
- 256 128 l 1,66,-1
- 256 96 l 1,67,-1
- 352 96 l 1,68,-1
- 352 128 l 1,69,-1
- 416 128 l 1,70,-1
- 416 160 l 1,71,-1
- 448 160 l 1,72,-1
- 448 192 l 1,73,-1
- 576 192 l 1,74,-1
- 576 160 l 1,75,-1
- 544 160 l 1,76,-1
- 544 128 l 1,77,-1
- 512 128 l 1,78,-1
- 512 64 l 1,79,-1
- 480 64 l 1,80,-1
- 480 32 l 1,81,-1
- 384 32 l 1,82,-1
- 384 0 l 1,83,-1
- 224 0 l 1,0,-1
+288 0 m 1,0,-1
+ 288 32 l 1,1,-1
+ 192 32 l 1,2,-1
+ 192 64 l 1,3,-1
+ 160 64 l 1,4,-1
+ 160 96 l 1,5,-1
+ 128 96 l 1,6,-1
+ 128 128 l 1,7,-1
+ 96 128 l 1,8,-1
+ 96 192 l 1,9,-1
+ 64 192 l 1,10,-1
+ 64 224 l 1,11,-1
+ 0 224 l 1,12,-1
+ 0 288 l 1,13,-1
+ 64 288 l 1,14,-1
+ 64 352 l 1,15,-1
+ 0 352 l 1,16,-1
+ 0 416 l 1,17,-1
+ 64 416 l 1,18,-1
+ 64 448 l 1,19,-1
+ 96 448 l 1,20,-1
+ 96 512 l 1,21,-1
+ 128 512 l 1,22,-1
+ 128 544 l 1,23,-1
+ 160 544 l 1,24,-1
+ 160 576 l 1,25,-1
+ 192 576 l 1,26,-1
+ 192 608 l 1,27,-1
+ 288 608 l 1,28,-1
+ 288 640 l 1,29,-1
+ 448 640 l 1,30,-1
+ 448 608 l 1,31,-1
+ 544 608 l 1,32,-1
+ 544 576 l 1,33,-1
+ 576 576 l 1,34,-1
+ 576 512 l 1,35,-1
+ 608 512 l 1,36,-1
+ 608 480 l 1,37,-1
+ 640 480 l 1,38,-1
+ 640 448 l 1,39,-1
+ 512 448 l 1,40,-1
+ 512 480 l 1,41,-1
+ 480 480 l 1,42,-1
+ 480 512 l 1,43,-1
+ 416 512 l 1,44,-1
+ 416 544 l 1,45,-1
+ 320 544 l 1,46,-1
+ 320 512 l 1,47,-1
+ 256 512 l 1,48,-1
+ 256 480 l 1,49,-1
+ 224 480 l 1,50,-1
+ 224 448 l 1,51,-1
+ 192 448 l 1,52,-1
+ 192 416 l 1,53,-1
+ 448 416 l 1,54,-1
+ 448 352 l 1,55,-1
+ 160 352 l 1,56,-1
+ 160 288 l 1,57,-1
+ 448 288 l 1,58,-1
+ 448 224 l 1,59,-1
+ 192 224 l 1,60,-1
+ 192 192 l 1,61,-1
+ 224 192 l 1,62,-1
+ 224 160 l 1,63,-1
+ 256 160 l 1,64,-1
+ 256 128 l 1,65,-1
+ 320 128 l 1,66,-1
+ 320 96 l 1,67,-1
+ 416 96 l 1,68,-1
+ 416 128 l 1,69,-1
+ 480 128 l 1,70,-1
+ 480 160 l 1,71,-1
+ 512 160 l 1,72,-1
+ 512 192 l 1,73,-1
+ 640 192 l 1,74,-1
+ 640 160 l 1,75,-1
+ 608 160 l 1,76,-1
+ 608 128 l 1,77,-1
+ 576 128 l 1,78,-1
+ 576 64 l 1,79,-1
+ 544 64 l 1,80,-1
+ 544 32 l 1,81,-1
+ 448 32 l 1,82,-1
+ 448 0 l 1,83,-1
+ 288 0 l 1,0,-1
 EndSplineSet
-Validated: 1
+Kerns2: 196 -288 "kern"  116 -288 "kern"  109 -288 "kern" 
 EndChar
 
 StartChar: trademark
 Encoding: 8482 8482 210
-Width: 800
-Flags: W
+Width: 704
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12622,8 +12659,8 @@ EndChar
 
 StartChar: uniFB01
 Encoding: 64257 64257 211
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12664,8 +12701,8 @@ EndChar
 
 StartChar: uniFB02
 Encoding: 64258 64258 212
-Width: 512
-Flags: W
+Width: 416
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
