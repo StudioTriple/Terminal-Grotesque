@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="space" format="1">
+  <advance width="290"/>
+  <unicode hex="0020"/>
+  <outline>
+    <contour>
+      <point x="131.489" y="313.5"/>
+      <point x="30.4893" y="326.5"/>
+      <point x="172.489" y="326.5"/>
+      <point x="273.489" y="311.5"/>
+      <point x="273.489" y="289.5"/>
+      <point x="172.489" y="274.5"/>
+      <point x="30.4893" y="274.5"/>
+      <point x="131.489" y="291.5"/>
+    </contour>
+  </outline>
+</glyph>
