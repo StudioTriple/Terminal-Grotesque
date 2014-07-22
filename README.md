@@ -1,6 +1,6 @@
 # Terminal Grotesque
 
-Open source pixel / grotesque font.
+Libre pixel / grotesque font.
 
 ## Specimen
 ![Specimen 1](https://github.com/raphaelbastide/Terminal-Grotesque/raw/master/documentation/images/terminalGrotesque1.gif)
