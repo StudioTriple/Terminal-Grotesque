@@ -3,6 +3,10 @@
 Open source pixel / grotesque font family.
 
 ## Specimen
+![Specimen 4](https://github.com/jjjlllnnn/Terminal-Grotesque/raw/master/specimen/terminalGrotesque4.png)
+
+![Specimen 5](https://github.com/jjjlllnnn/Terminal-Grotesque/raw/master/specimen/terminalGrotesque5.png)
+
 ![Specimen 1](https://github.com/jjjlllnnn/Terminal-Grotesque/raw/master/specimen/terminalGrotesque1.gif)
 
 ![Specimen 2](https://github.com/jjjlllnnn/Terminal-Grotesque/raw/master/specimen/terminalGrotesque2.gif)
