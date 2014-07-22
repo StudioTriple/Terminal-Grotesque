@@ -4,9 +4,9 @@ Open source pixel / grotesque font family.
 
 ## Specimen
 
-![Specimen 1](https://github.com/raphaelbastide/Terminal-Grotesque/raw/master/specimen/terminal-Grotesque-specimen-1.png)
+![Specimen 1](https://raw.githubusercontent.com/raphaelbastide/Terminal-Grotesque/master/specimen/Terminal-Grotesque-specimen-1.png)
 
-![Specimen 2](https://github.com/raphaelbastide/Terminal-Grotesque/raw/master/specimen/terminal-Grotesque-specimen-2.png)
+![Specimen 2](https://raw.githubusercontent.com/raphaelbastide/Terminal-Grotesque/master/specimen/Terminal-Grotesque-specimen-1.png)
 
 ## License
 
