@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotereversed" format="1">
+  <advance width="187"/>
+  <unicode hex="201B"/>
+  <outline>
+    <contour>
+      <point x="64" y="448" type="line"/>
+      <point x="64" y="480" type="line"/>
+      <point x="32" y="480" type="line"/>
+      <point x="32" y="640" type="line"/>
+      <point x="128" y="640" type="line"/>
+      <point x="128" y="544" type="line"/>
+      <point x="64" y="544" type="line"/>
+      <point x="64" y="512" type="line"/>
+      <point x="96" y="512" type="line"/>
+      <point x="96" y="480" type="line"/>
+      <point x="128" y="480" type="line"/>
+      <point x="128" y="448" type="line"/>
+    </contour>
+    <contour>
+      <point x="96" y="576" type="line"/>
+      <point x="96" y="608" type="line"/>
+      <point x="64" y="608" type="line"/>
+      <point x="64" y="576" type="line"/>
+    </contour>
+  </outline>
+</glyph>

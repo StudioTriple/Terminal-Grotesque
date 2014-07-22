@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="specimen2.svg"
+   inkscape:export-filename="/Users/jjjlllnnn/ownCloud/Typo/Terminal-Grotesque/specimen/specimen2.png"
+   inkscape:export-xdpi="67.139999"
+   inkscape:export-ydpi="67.139999">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49751003"
+     inkscape:cx="860.79221"
+     inkscape:cy="200.44485"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="844"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2985"
+       width="1071.4286"
+       height="760"
+       x="-11.428572"
+       y="-1063.7908"
+       transform="scale(1,-1)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2987-2"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Terminal Grotesque;-inkscape-font-specification:Terminal Grotesque"
+       transform="matrix(1.1844757,0,0,1.1844757,-90.564954,302.72104)"><flowRegion
+         id="flowRegion2989-9"><rect
+           id="rect2991-8"
+           width="925.04871"
+           height="642.25488"
+           x="115.01481"
+           y="107.46323"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Terminal Grotesque;-inkscape-font-specification:Terminal Grotesque" /></flowRegion><flowPara
+         style="font-size:250px;line-height:81.0000062%;fill:#ffffff"
+         id="flowPara2991-1"><flowSpan
+           style="line-height:81.99999928%"
+           id="flowSpan2997"><flowSpan
+   style="font-family:Terminal Grotesque Open;-inkscape-font-specification:Terminal Grotesque Open"
+   id="flowSpan3087">Pixel</flowSpan>is not</flowSpan><flowSpan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Terminal Grotesque Open;-inkscape-font-specification:Terminal Grotesque Open"
+           id="flowSpan3091">dead</flowSpan></flowPara></flowRoot>  </g>
+</svg>
