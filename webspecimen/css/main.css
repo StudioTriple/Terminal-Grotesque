@@ -5,7 +5,7 @@ body{
 	line-height:1em;
 	font-family:"terminal_grotesque", arial;
 	padding:0;
-	overflow-y:hidden;
+	overflow:hidden;
 }
 
 .text span{
@@ -28,6 +28,14 @@ body{
   left: 50%;
 	margin-right: -50%;
   transform: translate(-50%, -50%)
+}
+.frame{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	border:10px solid;
 }
 a{
 	color:inherit;
