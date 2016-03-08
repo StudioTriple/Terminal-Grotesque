@@ -1,8 +1,7 @@
 # Terminal Grotesque
 
-Libre pixel / grotesque font.
-=======
-Open source pixel / grotesque font family.
+Open source pixel / grotesque font family.  
+The font was initiated by Raphaël Bastide and completed by Jérémy Landes-Nones with the _open_ version.
 
 ## Specimen
 

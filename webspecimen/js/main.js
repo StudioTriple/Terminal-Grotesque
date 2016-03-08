@@ -1,19 +1,3 @@
-// var $div = $('.text').clone().html('');
-// $('.text').contents().each(function(){
-//   // var spanClass = '';
-//   //
-//   // if ($(this).is('span')) {
-//   //   spanClass = $(this).attr('class');
-//   // }
-//
-//   $textArray = $(this).text().split('');
-//
-//   for (var i = 0; i < $textArray.length; i++) {
-//     $('<span>').addClass('l'+i+'').text($textArray[i]).appendTo($div);
-//   }
-// });
-// $('.text').replaceWith($div);
-
 var click = 1,
   textsize = 50;
 

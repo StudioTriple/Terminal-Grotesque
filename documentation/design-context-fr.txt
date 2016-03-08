@@ -1,0 +1,13 @@
+# ﻿Terminal Grotesque
+
+
+Terminal Grotesque est une police de caractères que j’ai commencé en décembre 2010 alors que je travaillais pour un projet de jeu sur une police pixel nommée Modulicon. Les caractères de Modulicon ne sont pas alpha-numériques mais une série d’icônes prévues pour être affichées dans de petits espaces. Après quelque temps passés à compléter cette police, le travail du pixel m’a donné envie de commencer un autre dessin utilisable pour des titres en texte courant avec un corps élevé. Ce projet mené parallèlement à mon travail a porté le nom temporaire de Junkette puis est devenu Terminal Grotesque : une police pixel inspirée par la Futura de Paul Renner et certaines caractéristiques des typographies de Radim Peško. Terminal Grotesque a été utilisée pour le texte que vous êtes en train de lire mais reste inachevée ; vous pouvez constater certaines incohérences ou lacune, notamment en ce qui concerne l’espace inter-lettres et les caractères spéciaux.
+La conception et la réalisation de Terminal Grotesque ont été simultanées, ainsi, l’identité typographique s’affine au cours des versions.
+La contrainte du pixel comme élément de module provoque certaines curiosités parfois difficilement contournables. image, image
+Cet exercice personnel ne vise aucun but sinon celui d’accompagner mon initiation au dessin typographique, Un tel travail, selon moi, ne doit pas être finalisé, son statut de “projet en version Bêta” convient à sa modification perpétuelle.
+Ce type de projet sans commande peut servir une multitude d’utilisations dans des domaines bien différents. Sa “versionalisation” est certes rendue possible grâce aux logiciels informatiques mais aussi grâce à son statut Bêta, .
+Terminal Grotesque est et restera open source, c’est à dire librement téléchargeable, utilisable et modifiable par tout un chacun. Ainsi, elle bénéficiera des modifications de son concepteur mais aussi des contributions d’autres auteurs qui auront décidé de la modifier. Ce principe n’est désormais plus réservé au code, mais étendu aux textes, aux images, aux machines, aux idées.
+
+Terminal : En informatique, un terminal désigne un ensemble de périphériques de sortie (écran...) ou d'entrée (clavier, souris...), en quelque sorte l'extrémité d'un réseau.
+
+Grotesque : ou “Grotesk” en allemand, est fréquemment utilisé comme synonyme à “sans serif” c’est à dire sans empattements en typographie.
