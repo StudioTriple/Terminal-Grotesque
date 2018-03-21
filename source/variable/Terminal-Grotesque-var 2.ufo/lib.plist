@@ -2,69 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.defcon.sortDescriptor</key>
-	<array>
-		<dict>
-			<key>allowPseudoUnicode</key>
-			<true/>
-			<key>ascending</key>
-			<true/>
-			<key>type</key>
-			<string>alphabetical</string>
-		</dict>
-		<dict>
-			<key>allowPseudoUnicode</key>
-			<true/>
-			<key>ascending</key>
-			<true/>
-			<key>type</key>
-			<string>category</string>
-		</dict>
-		<dict>
-			<key>allowPseudoUnicode</key>
-			<true/>
-			<key>ascending</key>
-			<true/>
-			<key>type</key>
-			<string>unicode</string>
-		</dict>
-		<dict>
-			<key>allowPseudoUnicode</key>
-			<true/>
-			<key>ascending</key>
-			<true/>
-			<key>type</key>
-			<string>script</string>
-		</dict>
-		<dict>
-			<key>allowPseudoUnicode</key>
-			<true/>
-			<key>ascending</key>
-			<true/>
-			<key>type</key>
-			<string>suffix</string>
-		</dict>
-		<dict>
-			<key>allowPseudoUnicode</key>
-			<true/>
-			<key>ascending</key>
-			<true/>
-			<key>type</key>
-			<string>decompositionBase</string>
-		</dict>
-	</array>
-	<key>com.typemytype.robofont.compileSettings.autohint</key>
-	<true/>
-	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
-	<false/>
-	<key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
-	<true/>
-	<key>com.typemytype.robofont.compileSettings.decompose</key>
-	<false/>
-	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
-	<integer>0</integer>
-	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
-	<false/>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
 		<real>0.5</real>
@@ -72,23 +9,11 @@
 		<real>0.5</real>
 		<real>0.7</real>
 	</array>
-	<key>com.typemytype.robofont.italicSlantOffset</key>
-	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
-		<string>regular</string>
-	</array>
-	<key>com.typemytype.robofont.regular.layerStrokeColor</key>
-	<array>
-		<real>1.0</real>
-		<real>0.0</real>
-		<real>0.0</real>
-		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
-	<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
-	<integer>1</integer>
 	<key>com.typemytype.robofont.sort</key>
 	<array>
 		<dict>
@@ -118,8 +43,6 @@
 				<string>Iacute</string>
 				<string>Icircumflex</string>
 				<string>Idieresis</string>
-				<string>Itilde</string>
-				<string>Idotaccent</string>
 				<string>J</string>
 				<string>K</string>
 				<string>L</string>
@@ -136,32 +59,23 @@
 				<string>Q</string>
 				<string>R</string>
 				<string>S</string>
-				<string>Scaron</string>
 				<string>T</string>
 				<string>U</string>
 				<string>Ugrave</string>
 				<string>Uacute</string>
 				<string>Ucircumflex</string>
 				<string>Udieresis</string>
-				<string>Utilde</string>
 				<string>V</string>
 				<string>W</string>
 				<string>X</string>
 				<string>Y</string>
 				<string>Yacute</string>
-				<string>Ycircumflex</string>
 				<string>Ydieresis</string>
-				<string>Ygrave</string>
 				<string>Z</string>
-				<string>Zacute</string>
-				<string>Zcaron</string>
 				<string>AE</string>
 				<string>Eth</string>
 				<string>Oslash</string>
 				<string>Thorn</string>
-				<string>IJ</string>
-				<string>Lslash</string>
-				<string>OE</string>
 				<string>uni1E9E</string>
 				<string>uni00B5</string>
 				<string>a</string>
@@ -188,7 +102,6 @@
 				<string>iacute</string>
 				<string>icircumflex</string>
 				<string>idieresis</string>
-				<string>itilde</string>
 				<string>j</string>
 				<string>k</string>
 				<string>l</string>
@@ -212,35 +125,21 @@
 				<string>uacute</string>
 				<string>ucircumflex</string>
 				<string>udieresis</string>
-				<string>utilde</string>
 				<string>v</string>
 				<string>w</string>
 				<string>x</string>
 				<string>y</string>
 				<string>yacute</string>
 				<string>ydieresis</string>
-				<string>ycircumflex</string>
-				<string>ygrave</string>
 				<string>z</string>
-				<string>zcaron</string>
 				<string>germandbls</string>
 				<string>ae</string>
 				<string>eth</string>
 				<string>oslash</string>
 				<string>thorn</string>
-				<string>dotlessi</string>
-				<string>ij</string>
-				<string>lslash</string>
 				<string>oe</string>
-				<string>dotlessj</string>
-				<string>f_f</string>
 				<string>uniFB01</string>
 				<string>uniFB02</string>
-				<string>f_f_i</string>
-				<string>f_f_l</string>
-				<string>i.TRK</string>
-				<string>circumflex</string>
-				<string>caron</string>
 				<string>ordfeminine</string>
 				<string>ordmasculine</string>
 				<string>zero</string>
@@ -261,38 +160,24 @@
 				<string>threequarters</string>
 				<string>underscore</string>
 				<string>hyphen</string>
-				<string>endash</string>
 				<string>emdash</string>
-				<string>hyphen.cap</string>
-				<string>endash.cap</string>
-				<string>emdash.cap</string>
 				<string>parenleft</string>
 				<string>bracketleft</string>
 				<string>braceleft</string>
 				<string>quotesinglbase</string>
 				<string>quotedblbase</string>
-				<string>parenleft.cap</string>
-				<string>bracketleft.cap</string>
-				<string>braceleft.cap</string>
 				<string>parenright</string>
 				<string>bracketright</string>
 				<string>braceright</string>
-				<string>parenright.cap</string>
-				<string>bracketright.cap</string>
-				<string>braceright.cap</string>
 				<string>guillemotleft</string>
 				<string>quoteleft</string>
 				<string>quotereversed</string>
 				<string>quotedblleft</string>
 				<string>guilsinglleft</string>
-				<string>guillemotleft.cap</string>
-				<string>guilsinglleft.cap</string>
 				<string>guillemotright</string>
 				<string>quoteright</string>
 				<string>quotedblright</string>
 				<string>guilsinglright</string>
-				<string>guillemotright.cap</string>
-				<string>guilsinglright.cap</string>
 				<string>exclam</string>
 				<string>quotedbl</string>
 				<string>numbersign</string>
@@ -314,14 +199,8 @@
 				<string>periodcentered</string>
 				<string>questiondown</string>
 				<string>dagger</string>
-				<string>daggerdbl</string>
 				<string>bullet</string>
 				<string>ellipsis</string>
-				<string>perthousand</string>
-				<string>exclamdown.cap</string>
-				<string>periodcentered.cap</string>
-				<string>questiondown.cap</string>
-				<string>bullet.cap</string>
 				<string>plus</string>
 				<string>less</string>
 				<string>equal</string>
@@ -332,13 +211,6 @@
 				<string>plusminus</string>
 				<string>multiply</string>
 				<string>divide</string>
-				<string>fraction</string>
-				<string>minus</string>
-				<string>infinity</string>
-				<string>approxequal</string>
-				<string>notequal</string>
-				<string>lessequal</string>
-				<string>greaterequal</string>
 				<string>dollar</string>
 				<string>cent</string>
 				<string>sterling</string>
@@ -351,38 +223,16 @@
 				<string>macron</string>
 				<string>acute</string>
 				<string>cedilla</string>
-				<string>breve</string>
-				<string>dotaccent</string>
-				<string>ring</string>
-				<string>ogonek</string>
-				<string>tilde</string>
-				<string>hungarumlaut</string>
 				<string>brokenbar</string>
 				<string>copyright</string>
 				<string>registered</string>
 				<string>degree</string>
 				<string>trademark</string>
 				<string>space</string>
-				<string>nbspace</string>
 				<string>.notdef</string>
-				<string>.null</string>
-				<string>AC</string>
-				<string>ALT</string>
-				<string>CA</string>
-				<string>CR</string>
-				<string>DF</string>
-				<string>LC</string>
-				<string>LIG</string>
-				<string>MAT</string>
-				<string>ORN</string>
-				<string>PUN</string>
-				<string>VTF</string>
-				<string>fi</string>
-				<string>fl</string>
 				<string>glyph1</string>
 				<string>glyph2</string>
 				<string>pixel</string>
-				<string>published</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -414,8 +264,6 @@
 		<string>Iacute</string>
 		<string>Icircumflex</string>
 		<string>Idieresis</string>
-		<string>Itilde</string>
-		<string>Idotaccent</string>
 		<string>J</string>
 		<string>K</string>
 		<string>L</string>
@@ -432,32 +280,23 @@
 		<string>Q</string>
 		<string>R</string>
 		<string>S</string>
-		<string>Scaron</string>
 		<string>T</string>
 		<string>U</string>
 		<string>Ugrave</string>
 		<string>Uacute</string>
 		<string>Ucircumflex</string>
 		<string>Udieresis</string>
-		<string>Utilde</string>
 		<string>V</string>
 		<string>W</string>
 		<string>X</string>
 		<string>Y</string>
 		<string>Yacute</string>
-		<string>Ycircumflex</string>
 		<string>Ydieresis</string>
-		<string>Ygrave</string>
 		<string>Z</string>
-		<string>Zacute</string>
-		<string>Zcaron</string>
 		<string>AE</string>
 		<string>Eth</string>
 		<string>Oslash</string>
 		<string>Thorn</string>
-		<string>IJ</string>
-		<string>Lslash</string>
-		<string>OE</string>
 		<string>uni1E9E</string>
 		<string>uni00B5</string>
 		<string>a</string>
@@ -484,7 +323,6 @@
 		<string>iacute</string>
 		<string>icircumflex</string>
 		<string>idieresis</string>
-		<string>itilde</string>
 		<string>j</string>
 		<string>k</string>
 		<string>l</string>
@@ -508,35 +346,21 @@
 		<string>uacute</string>
 		<string>ucircumflex</string>
 		<string>udieresis</string>
-		<string>utilde</string>
 		<string>v</string>
 		<string>w</string>
 		<string>x</string>
 		<string>y</string>
 		<string>yacute</string>
 		<string>ydieresis</string>
-		<string>ycircumflex</string>
-		<string>ygrave</string>
 		<string>z</string>
-		<string>zcaron</string>
 		<string>germandbls</string>
 		<string>ae</string>
 		<string>eth</string>
 		<string>oslash</string>
 		<string>thorn</string>
-		<string>dotlessi</string>
-		<string>ij</string>
-		<string>lslash</string>
 		<string>oe</string>
-		<string>dotlessj</string>
-		<string>f_f</string>
 		<string>uniFB01</string>
 		<string>uniFB02</string>
-		<string>f_f_i</string>
-		<string>f_f_l</string>
-		<string>i.TRK</string>
-		<string>circumflex</string>
-		<string>caron</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>zero</string>
@@ -557,38 +381,24 @@
 		<string>threequarters</string>
 		<string>underscore</string>
 		<string>hyphen</string>
-		<string>endash</string>
 		<string>emdash</string>
-		<string>hyphen.cap</string>
-		<string>endash.cap</string>
-		<string>emdash.cap</string>
 		<string>parenleft</string>
 		<string>bracketleft</string>
 		<string>braceleft</string>
 		<string>quotesinglbase</string>
 		<string>quotedblbase</string>
-		<string>parenleft.cap</string>
-		<string>bracketleft.cap</string>
-		<string>braceleft.cap</string>
 		<string>parenright</string>
 		<string>bracketright</string>
 		<string>braceright</string>
-		<string>parenright.cap</string>
-		<string>bracketright.cap</string>
-		<string>braceright.cap</string>
 		<string>guillemotleft</string>
 		<string>quoteleft</string>
 		<string>quotereversed</string>
 		<string>quotedblleft</string>
 		<string>guilsinglleft</string>
-		<string>guillemotleft.cap</string>
-		<string>guilsinglleft.cap</string>
 		<string>guillemotright</string>
 		<string>quoteright</string>
 		<string>quotedblright</string>
 		<string>guilsinglright</string>
-		<string>guillemotright.cap</string>
-		<string>guilsinglright.cap</string>
 		<string>exclam</string>
 		<string>quotedbl</string>
 		<string>numbersign</string>
@@ -610,14 +420,8 @@
 		<string>periodcentered</string>
 		<string>questiondown</string>
 		<string>dagger</string>
-		<string>daggerdbl</string>
 		<string>bullet</string>
 		<string>ellipsis</string>
-		<string>perthousand</string>
-		<string>exclamdown.cap</string>
-		<string>periodcentered.cap</string>
-		<string>questiondown.cap</string>
-		<string>bullet.cap</string>
 		<string>plus</string>
 		<string>less</string>
 		<string>equal</string>
@@ -628,13 +432,6 @@
 		<string>plusminus</string>
 		<string>multiply</string>
 		<string>divide</string>
-		<string>fraction</string>
-		<string>minus</string>
-		<string>infinity</string>
-		<string>approxequal</string>
-		<string>notequal</string>
-		<string>lessequal</string>
-		<string>greaterequal</string>
 		<string>dollar</string>
 		<string>cent</string>
 		<string>sterling</string>
@@ -647,38 +444,16 @@
 		<string>macron</string>
 		<string>acute</string>
 		<string>cedilla</string>
-		<string>breve</string>
-		<string>dotaccent</string>
-		<string>ring</string>
-		<string>ogonek</string>
-		<string>tilde</string>
-		<string>hungarumlaut</string>
 		<string>brokenbar</string>
 		<string>copyright</string>
 		<string>registered</string>
 		<string>degree</string>
 		<string>trademark</string>
 		<string>space</string>
-		<string>nbspace</string>
 		<string>.notdef</string>
-		<string>.null</string>
-		<string>AC</string>
-		<string>ALT</string>
-		<string>CA</string>
-		<string>CR</string>
-		<string>DF</string>
-		<string>LC</string>
-		<string>LIG</string>
-		<string>MAT</string>
-		<string>ORN</string>
-		<string>PUN</string>
-		<string>VTF</string>
-		<string>fi</string>
-		<string>fl</string>
 		<string>glyph1</string>
 		<string>glyph2</string>
 		<string>pixel</string>
-		<string>published</string>
 	</array>
 </dict>
 </plist>

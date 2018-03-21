@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="500" maximum="1000" minimum="0" name="weight" tag="wght" />
+        <axis default="500" maximum="1000" minimum="0" name="slant" tag="slnt" />
+        <axis default="0" maximum="1000" minimum="0" name="roundness" tag="rnd1">
+            <labelname xml:lang="en">Roundness</labelname>
+        </axis>
+        <axis default="0" maximum="1000" minimum="0" name="counter" tag="ctr1">
+            <labelname xml:lang="en">Counter Size</labelname>
+        </axis>
+    </axes>
+    <sources>
+      <source familyname="Terminal Grotesque var" filename="Terminal-Grotesque-var 0.ufo" stylename="0">
+        <lib copy="1" />
+        <groups copy="1" />
+        <features copy="1" />
+        <info copy="1" />
+          <location>
+              <dimension name="weight" xvalue="500" />
+              <dimension name="slant" xvalue="500" />
+              <dimension name="roundness" xvalue="0" />
+              <dimension name="counter" xvalue="0" />
+          </location>
+      </source>
+      <source familyname="Terminal Grotesque var" filename="Terminal-Grotesque-var 1.ufo" stylename="1">
+          <location>
+              <dimension name="weight" xvalue="500" />
+              <dimension name="slant" xvalue="500" />
+              <dimension name="roundness" xvalue="0" />
+              <dimension name="counter" xvalue="500" />
+          </location>
+      </source>
+        <source familyname="Terminal Grotesque var" filename="Terminal-Grotesque-var 2.ufo" stylename="2">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="slant" xvalue="500" />
+                <dimension name="roundness" xvalue="1000" />
+                <dimension name="counter" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Terminal Grotesque var" filename="Terminal-Grotesque-var 3.ufo" stylename="3">
+            <location>
+                <dimension name="weight" xvalue="500" />
+                <dimension name="slant" xvalue="500" />
+                <dimension name="roundness" xvalue="1000" />
+                <dimension name="counter" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Terminal Grotesque var" filename="Terminal-Grotesque-var 4.ufo" stylename="4">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="slant" xvalue="750" />
+                <dimension name="roundness" xvalue="1000" />
+                <dimension name="counter" xvalue="0" />
+            </location>
+        </source>
+    </sources>
+</designspace>
