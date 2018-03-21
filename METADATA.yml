@@ -1,0 +1,34 @@
+// Type Design Boilerplate V0.1
+// https://github.com/raphaelbastide/typedesignboilerplate
+{
+    "typeface": {
+        "name": "Terminal Grotesque",
+        "authors": [
+            "Raphaël Bastide"
+        ],
+        "licence": "OFL",
+        "unicode-ranges": "Basic Latin",
+        "tags": [
+            "pixel",
+            "grotesque",
+            "libre",
+            "open source"
+        ],
+        "repository-URL": "https://github.com/raphaelbastide/Terminal-Grotesque",
+        "download-URL": "https://github.com/raphaelbastide/Terminal-Grotesque/zipball/master",
+        "softwares": [
+            "Inkscape",
+            "Fontforge"
+        ],
+        "similar-fonts": [
+            "Helvetica",
+            "Neue Haas Grotesk"
+        ],
+        "sample-text": "Pixel pizza & CYBER PUNK dawgs — 1997: Hack'n crack",
+        "font": {
+            "name": "Terminal Grotesque normal",
+            "weight": "book",
+            "creation-date": "2012"
+        }
+    }
+}
